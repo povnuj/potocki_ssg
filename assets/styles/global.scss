@@ -1,0 +1,206 @@
+@import "./global-variable.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+/* width sizes */
+.container-size{
+  @media (max-width: 1400px){
+    width: 1116px;
+  }
+  @media (max-width: 1200px){
+    width: 936px;
+  }
+  @media (max-width: 991px) {
+    max-width: 705px;
+  }
+  @media (max-width: 768px) {
+    max-width: 540px;
+  }
+  @media (max-width: 575px) {
+    min-width: 336px;
+  }
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000;
+  font-style:italic;
+  font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+a{
+  cursor: pointer;
+}
+
+.btn-black {
+  font-size: 20px;
+  font-weight: 400;
+  line-height:28px;
+  border: 1px solid #2E3139;
+  border-radius: 0;
+  padding: 8px 70px 8px 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.btn__general{
+  font-style: normal;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 45px;
+  padding: 8px 20px;
+  cursor: pointer;
+  color: #fff !important;
+  border: 1px solid #fff;
+  transition: 0.4s all;
+
+  svg{
+    margin-left: 20px;
+  }
+
+  svg > path{
+    transition: 0.4s all;
+  }
+
+  @media (any-hover: hover) {
+    &:hover  {
+      color: rgba(46, 49, 57, 1) !important;
+      background: #fff;
+      border: 1px solid #fff;
+
+      svg > path{
+        fill: rgba(46, 49, 57, 1);
+      }
+    }
+  }
+
+  &:active{
+    color: #fff !important;
+    background: transparent;
+    border: 2px solid #fff;
+
+    svg > path{
+      fill: #fff;
+    }
+  }
+}
+
+
+.btn__general-black{
+  color: #2E3139 !important;
+  border: 1px solid #2E3139;
+
+  svg > path{
+    fill: rgba(46, 49, 57, 1);
+  }
+
+  @media (any-hover: hover) {
+    &:hover  {
+      color: #fff !important;
+      background: rgba(46, 49, 57, 1);
+      border: 1px solid rgba(46, 49, 57, 1);
+
+      svg > path{
+        fill: #fff;
+      }
+    }
+  }
+
+  &:active{
+    color: rgba(46, 49, 57, 1) !important;
+    background: #fff;
+    border: 2px solid rgba(46, 49, 57, 1);
+
+    svg > path{
+      fill: rgba(46, 49, 57, 1);
+    }
+  }
+}
+
+

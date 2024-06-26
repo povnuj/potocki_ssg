@@ -1,0 +1,316 @@
+{
+  "lang": "Pol",
+  "meta":{
+    "description": "Pałacowego Potockich, Organizacja dialogu kultury, nauki, biznesu, promocja zachowania dziedzictwa kulturowego.",
+    "palace":{
+      "home":{
+        "title": "Pałacowego Potockich",
+        "description": "Renowacja i adaptacja zabytkowych budynków zespołu pałacowego Potockich w Iwano-Frankiwsku. Organizacja dialogu kultury, nauki, biznesu, promocja zachowania dziedzictwa kulturowego."
+      },
+      "events": {
+        "title": "Wydarzenia",
+        "description": "Co tydzień w Pałacu odbywają się różne wydarzenia, od prezentacji książek po koncerty plenerowe. Dowiedz się więcej o następujących wydarzeniach."
+      },
+      "projects": {
+        "title": "Projekty",
+        "description": "Renowacja i adaptacja zabytkowych budynków zespołu pałacowego Potockich w Iwano-Frankiwsku. Organizacja dialogu kultury, nauki, biznesu, promocja zachowania dziedzictwa kulturowego."
+      },
+      "services": {
+        "title": "Usługi",
+        "description": "Renowacja i adaptacja zabytkowych budynków zespołu pałacowego Potockich w Iwano-Frankiwsku. Organizacja dialogu kultury, nauki, biznesu, promocja zachowania dziedzictwa kulturowego."
+      },
+      "blogs": {
+        "title": "Aktualności",
+        "description": "Renowacja i adaptacja zabytkowych budynków zespołu pałacowego Potockich w Iwano-Frankiwsku. Organizacja dialogu kultury, nauki, biznesu, promocja zachowania dziedzictwa kulturowego."
+      },
+      "contest": {
+        "title": "Konkurs",
+        "description": "Międzynarodowy konkurs architektoniczny."
+      }
+    },
+    "citta_Ideale":{
+      "citta-landing":{
+        "title": "Citta Ideale",
+        "description": "Stworzenie Euroregionalnej Platformy Komunikacyjnej miast «idealnych» dla reorientacji turystyki w obwodzie Iwano-Frankiwskim"
+      },
+      "c-implementation":{
+        "title": "Realizacja",
+        "description": "Renowacja i adaptacja zabytkowych budynków zespołu pałacowego Potockich w Iwano-Frankiwsku. Organizacja dialogu kultury, nauki, biznesu, promocja zachowania dziedzictwa kulturowego."
+      },
+      "c-congress": {
+        "title": "Centrum kongresowe",
+        "description": "Nowoczesna wielofunkcyjna przestrzeń dla organizacja imprez kongresowych i rozwijanie międzynarodowej, interdyscyplinarnej współpracy"
+      },
+      "c-hub": {
+        "title": "HUB",
+        "description": "HUB kreatywnych pomysłów - to przestrzeń w historycznym centrum Iwano-Frankiwska z zachowaną autentycznością dla jednoczenia ludzi wokół historii i dziedzictwa, dla dialogu publicznego, interakcji społeczności kulturowej"
+      },
+      "c-museum": {
+        "title": "Muzeum",
+        "description": "Muzeum jest platformą do zrozumienia wielkoskalowych procesów historycznych jako czynników architektoniczno-urbanistycznego rozwoju miast obwodu Iwano-Frankiwskiego i innych regionów Ukrainy"
+      },
+      "c-routes": {
+        "title": "Trasy",
+        "description": "Historyczne oraz poznawcze szlaki «idealnymi» renesansowo-barokowymi miastami Ukrainy"
+      }
+    }
+  },
+  "nav": {
+    "events": "Wydarzenia",
+    "projects": "Projekty",
+    "services": "Usługi",
+    "blog": "Aktualności",
+    "contacts": "Łączność",
+    "contest": "Konkurs"
+  },
+  "navC": {
+    "main": "Pałac",
+    "implementation": "Realizacja",
+    "congress": "Centrum kongresowe",
+    "hub": "hub",
+    "museum": "Muzeum",
+    "routes": "Trasy"
+  },
+  "home": {
+    "title": "Przestrzeń innowacyjnych kreacji ",
+    "subtitle": "Renowacja i adaptacja zabytkowych budynków zespołu pałacowego Potockich w Iwano-Frankiwsku. Organizacja dialogu kultury, nauki, biznesu, promocja zachowania dziedzictwa kulturowego.",
+    "eventsTitle": "wydarzenia",
+    "eventsSubtitle": "Co tydzień w Pałacu odbywają się różne imprezy, zaczynając od prezentacji książek aż po koncerty plenerowe. Dowiedz się więcej o następujących wydarzeniach.",
+    "eventsBtn": "Wszystkie wydarzenia",
+    "restTitle": "O Pałacu",
+    "restSubtitle": "Potocki Palace Complex was founded in 1672-1682 by the owner of the city of Stanislaviv (now Ivano-Frankivsk), Hetman Andriy Potocki. The palace complex and the town remained a private estate of the wealthy magnate Potocki family until 1802. Its representatives at different times held high positions at the court of the Polish king. At various times, the owners of the city received in their residence many honored guests, among them: Jan Sobieski, who twice visited the city in the status of Hetman of the Polish Crown and the King of Poland; Transylvanian Prince Francis Rakoczy; Hanna — the wife of Pylyp Orlyk; Austrian Emperor Joseph II.\n\nAfter the bankruptcy of the last owner in 1801, the residence passed to the state treasury. From 1804 to 2004, the complex functioned as a military hospital of the states to which the city belonged (Austrian, Polish, German, Soviet, and Ukrainian).",
+    "restBtn": "Interaktywny schemat renowacji",
+    "restBtnConcept": "Koncepcja rewitalizacji",
+    "servicesTitle": "usługi udzielane przez pałac",
+    "servicesBtn": "Więcej o usługach"
+  },
+  "restoration": {
+    "title": "Renowacja pałacu",
+    "subtitle": "Kliknij na obraz dowolnego budynku, aby dowiedzieć się więcej o jego renowacji",
+    "complex": {
+      "aboutTitle": "About the complex",
+      "aboutText": "Głównym zadaniem restauracji zabytkowych budynków i budowli Zespołu Pałacowego Potockich jako obiektów dziedzictwa kulturowego jest zachowanie ich materialnej trójwymiarowej struktury, kształtu, historycznie odziedziczonego wyglądu i tradycyjnego charakteru otoczenia, co pozwala na uwzględnienie całego zespołu jako historyczne świadectwo poprzednich epok, ewolucja architektoniczna i urbanistyczna miasta Stanisławowa. Trwa proces przywracania. Dla każdego budynku sukcesywnie wykonywane są projekty renowacyjne z dostosowaniem się - zestaw prac badawczych, projektowych, poszukiwawczych i produkcyjnych, aby stworzyć warunki do nowoczesnego użytkowania bez zmiany ich nieodłącznych właściwości. ",
+      "buildingA": {
+        "title": "Building A",
+        "description": "The surgical building was built for the needs of a military hospital in 1895. It has not changed its function for more than a hundred years. On the doors of the surgery rooms, preserved inscriptions in German and Polish: operating room, outpatient clinic, and reception."
+      },
+      "buildingB": {
+        "title": "Building B",
+        "description": "The main building of the Potocki residence complex is the palace - the residence of the founder of Stanislaviv, Hetman Andriy Potocki. The building functioned from its foundation in 1672-82 until 1801. In the second half of the XVIII century, the palace was two-storeyed, decorated with a hewn white stone with an extensive presentation knight's hall decorated with luxurious polychrome. The owners of the city welcomed their honored guests here. Since 1804, as a military hospital building, it changed its function to medical and eventually lost its exquisite architectural image due to multiple reconstructions. The palace building remained a medical therapeutic building until 2004."
+      },
+      "buildingC": {
+        "title": "Building C",
+        "description": "Western wing (mid XVIII century) — one of the two palace wings performed a representative and security function as a guard house of the Potocki Palace. Subsequently, another wing was added symmetrically to it, relative to the palace gate. Despite numerous reconstructions, it retained the representative image of the main facade. From 1804 to 2004, it served as an infection ward of the military hospital."
+      },
+      "buildingD": {
+        "title": "Building D",
+        "description": "The Eastern wing (the 1780s) is one of two symmetrically located wings relative to the main palace gate. It was built as a \"new\" kitchen of the Potocki residence. Like the Western wing, it served a representative role. After the complex lost its private status, the wing became a medical building of the military hospital (1804-2004)."
+      },
+      "buildingE": {
+        "title": "Building E",
+        "description": "The physiotherapy facility of the military hospital was built in the early twentieth century on the site of a wooden building. Previous construction served as an \"old\" kitchen (mid-18th century), according to the historical cartographic materials of the Potocki Palace complex."
+      },
+      "buildingF": {
+        "title": "Building F",
+        "description": "Administrative, reception, and officers' club building, built in 1890 for the needs of the military hospital."
+      },
+      "buildingG": {
+        "title": "Building G",
+        "description": "The cart shed, the stable of the Potocki residence - the owners of the city of Stanislaviv, now Ivano-Frankivsk (the middle of the XVIII century). The household facility of the military hospital (1804 - 2004). There were several reconstructions of the building, but its original authentic structure is still preserved. The functional purpose also remained unchanged, and only the vehicles changed from the horse-drawn transport of the owners of the estate of the XVIII century to the hospital cars of the XX century.\n\nThe main entrance gate (XIX century) to the military hospital (1804 - 2004), the former residence of the Potocki family - the owners of the city of Stanislaviv, now Ivano-Frankivsk (1672-82 - 1804). Within 2012 - 2013 the gate and forged metal fence of the main facade of the complex were restored. Architectural and archaeological surveys under the foundations of the pylons of the gate revealed the remains of buildings of the fortress period.\n"
+      },
+      "buildingH": {
+        "title": "Building H",
+        "description": "There is a hypothesis that besides the main entrance gate, another gate was located on the central axis of the complex and had an exit to the curtain wall. At this very place, there is a ground building with underground chambers of XVII-XVIII and XIX centuries. It used to be a hospital kitchen."
+      },
+      "buildingI": {
+        "title": "Building I",
+        "description": "The building, built in the early XX century, served as a laundry of the hospital."
+      },
+      "fence": {
+        "title": "Brama wjazdowa i ogrodzenie",
+        "description": "Brama główna została zbudowana w XIX wieku, ogrodzenie obwodowe budowano w różnym czasie. W latach 2012-2013 odrestaurowano bramę i część ogrodzenia. Podczas badań architektoniczno-archeologicznych pod fundamentami pylonów bramnych odkryto pozostałości budowli z okresu twierdzy. W 2022 roku przeprowadzono remont renowacyjny bramy."
+      }
+    }
+  },
+  "events": {
+    "title": "Wydarzenia",
+    "subtitle": "Co tydzień w Pałacu odbywają się różne wydarzenia, od prezentacji książek po koncerty plenerowe. Dowiedz się więcej o następujących wydarzeniach.",
+    "future": "Przyszłe wydarzenia",
+    "past": "Przeszłe wydarzenia",
+    "details": "Szczegóły wydarzenia"
+  },
+  "event": {
+    "eventBackBtn": "Wróć do wszystkich wydarzeń",
+    "eventBtn": "Odwiedzić",
+    "eventBtnPast": "Więcej",
+    "eventInfoTitle": "Informacja o wydarzeniu",
+    "eventDuration": "Czas trwania",
+    "eventLocation": "Miejsce",
+    "eventEnter": "Wejście"
+  },
+  "projects": {
+    "title": "Projekty",
+    "projectTitle": "Projekt „Stworzenie Euroregionalnej Platformy Komunikacyjnej” miast “idealnych „ dla reorientacji turystyki w obwodzie Iwano-Frankiwskim” ",
+    "projectBtn": "Więcej o projekcie"
+  },
+  "project": {
+    "title": "Citta Ideale",
+    "subtitle": "Stworzenie euroregionalnej komunikacyjnej Platformy miast „idealnych” do reorientacji ruchu turystycznego w obwodzie Iwano-Frankowskim”",
+    "projectBtn": "Wszystkie projekty",
+    "text_1": "Projekt koncentruje się na innowacyjnym podejściu do organizacji ekskluzywnego produktu turystycznego, które obejmuje opracowanie sposobów prezentacji i wykorzystania dziedzictwa architektonicznego historycznych miast-twierdz regionu z wykorzystaniem doświadczeń europejskich, co przyczyni się do funkcjonalnej adaptacji dziedzictwa dzisiaj i w przyszłości.",
+    "text_2": "Celem projektu jest prezentacja dziedzictwa kulturowego regionu na poziomie krajowym i międzynarodowym na przykładzie historycznych „idealnych” renesansowo-barokowych miast warownych. Wśród nich są Iwano-Frankowsk, Bogorodczany, Mariampol, Żółkiew, Brody, Bar, Połonne.",
+    "text_3": "Prowadzone będą prace konserwatorskie w budynku A Pałacu Potockich, powstanie nowoczesna wielofunkcyjna przestrzeń Centrum Kongresowego, w której funkcjonować będzie Multimedialne Muzeum Sitta ideale, Centrum Pomysłów Twórczych oraz wydarzenia Platformy „Sittà ideale” będą odbywać się stale.",
+    "text_4": "Muzeum Citta ideale jest platformą do poznawania procesów historycznych, rozwoju architektonicznego i urbanistycznego miast, które zrealizowano według renesansowych koncepcji miasta „idealnego”, m.in. Iwano-Frankiwsk (Stanisławów), Mariampol, Połonne, Brody, Żółkiew, Bogorodczany.\nMuzeum jako forum dyskursu: czym jest dziedzictwo kulturowe, dlaczego należy je chronić i zachowywać.\nMuzeum jest szkołą krytycznego myślenia i społecznej odpowiedzialności za ochronę i zachowanie dziedzictwa kulturowego.",
+    "text_5": "Hub kreatywnych pomysłów jest tworzone w celu znalezienia najlepszych praktyk interakcji w dziedzinie turystyki historycznej i edukacyjnej oraz ochrony i zachowania dziedzictwa kulturowego. \nHub – przestrzeń jednoczenia ludzi wokół historii i dziedzictwa; dialogu publicznego; interakcji wspólnoty kulturalnej; miejsce na otwarte imprezy masowe; do realizacji programów edukacyjnych; środowisko do tworzenia i realizacji projektów w zakresie popularyzacji i ochrony dziedzictwa kulturowego; coworking.",
+    "text_6": "Zgodnie z projektem zainstalowane zostaną makiety z brązu „idealnych” miast renesansowo-barokowych, odbędą się imprezy edukacyjne i coroczne międzynarodowe Forum miast „idealnych”, utworzone zostaną dwie pilotażowe trasy turystyczne przez miasta „idealne”: Iwano- Frankowsk–Bogorodczany–Mariampil–Iwano-Frankiwsk / Iwano-Frankiwsk–Żowkiew–Brody–Iwano-Frankiwsk."
+  },
+  "services": {
+    "title": "Usługi",
+    "servicesBtn": "Pobieranie PDF"
+  },
+  "blogs": {
+    "title": "Aktualności",
+    "blogsBtn": "Czytać"
+  },
+  "blog": {
+    "blogBackBtn": "Wszystkie nowości",
+    "blogMore": "Więcej wiadomości",
+    "formTitle": "Prześlij swój artykuł",
+    "formName": "Twoje imię",
+    "formEmail": "Adres e-mail",
+    "formFile": "Załącz plik wiadomości",
+    "formSend": "Wysłać"
+  },
+  "contacts": {
+    "title": "Łączność",
+    "adressTitle": "Adres",
+    "adressInfo": "Iwano-Frankiwsk, ul. Szpital, 5",
+    "phone": "Тел.",
+    "email": "Ел. пошта"
+  },
+  "homeC": {
+    "subtitle": "Projekt „Stworzenie Euroregionalnej Platformy Komunikacyjnej miast  ” idealnych „ dla reorientacji turystyki w obwodzie Iwano-Frankiwskim” ma na celu:",
+    "subtitle1": "- prezentacja dziedzictwa kulturowego regionu na przykładzie historycznych „idealnych” miast fortecznych renesansowo-barokowych na poziomie krajowym i międzynarodowym;",
+    "subtitle2": "- tworzenie sieci turystycznej miast idealnych Ukrainy Zachodniej, jej integracja z przestrzenią turystyczną Wspólnoty Europejskiej;",
+    "subtitle3": "- założenie \"Forum Miast Idealnych\" w Pałacu Potockich - jednego z głównych elementów urbanistycznych \"idealnego\" miasta fortecznego Stanisławowa XVII wieku. (obecnie Iwano-Frankiwsk)",
+    "impementationTitle": "Realizacja",
+    "impementationBtn": "Wszystkie nowości",
+    "congressTitle": "Centrum kongresowe",
+    "congressSubitle": "Nowoczesna wielofunkcyjna przestrzeń Centrum Kongresowego -\nDom dziedzictwa architektonicznego i urbanistycznego historycznych „idealnych” twierdz regionu, Ukrainy, Europy.\nUtworzenie Centrum uzależnione jest od odnowienia projektu grantowego i wykonania prac konserwatorskich zgodnie z projektem renowacji budynku A Pałacu Potockich",
+    "congressBtn": "Wszystkie wydarzenia",
+    "hubTitle": "HUB",
+    "hubSubitle": "Wydarzenia w HUB. Co tydzień HUB organizuje różne wydarzenia, od prezentacji książek do koncertów plenerowych.  Dowiedz się więcej o następujących wydarzeniach.",
+    "hubBtn": "Dołącz się",
+    "museumTitle": "Muzeum",
+    "museumSubitle1": "Muzeum jest platformą do zrozumienia wielkoskalowych procesów historycznych jako czynników architektoniczno-urbanistycznego rozwoju miast obwodu Iwano-Frankiwskiego i innych regionów Ukrainy, które powstały  na podstawie ideologicznej renesansowej koncepcji miasta „idealnego” w XVII – na początku XVIII wieku, wśród których Iwano-Frankiwsk (Stanisławów), Mariampol, Połonne, Brody, Żołkwa, Bohorodczany.",
+    "museumSubitle2": "Muzeum jest forum dyskusyjny, który jest dziedzictwem kulturowym, dlatego należy je chronić i zachować.",
+    "museumSubitle3": "Muzeum jest szkołą krytycznego myślenia i odpowiedzialności społecznej za ochronę i zachowanie dziedzictwa kulturowego.",
+    "museumSubitle4": "Muzeum jest intelektualny i kreatywny ośrodek inicjatyw publicznych i wspólnych działań na rzecz prezentacji dziedzictwa kulturowego na przykładzie historycznych „idealnych” renesansowo-barokowych miast fortecznych w zakresie krajowym i międzynarodowym.",
+    "museumBtn": "Сo zobaczyć w muzeum",
+    "routesTitle": "Trasy",
+    "routesSubitle": "Odwiedź ciekawe miejsca historyczne z wyjątkowymi zabytkami architektury i urbanistyki idealnych miast Ukrainy zachodniej korzystając z tras, które stworzyliśmy.",
+    "routesBtn": "Pobierz trasy"
+  },
+  "implementationC": {
+    "title": "Realizacja"
+  },
+  "congressC": {
+    "title": "Centrum kongresowe",
+    "subtitle": "Nowoczesna wielofunkcyjna przestrzeń dla:",
+    "subtitle1": "- organizacja imprez kongresowych i rozwijanie międzynarodowej, interdyscyplinarnej współpracy;",
+    "subtitle2": "- realizacji działań Platformy „Citta ideale” (Muzeum miast „idealnych”, Hub kreatywnych pomysłów);",
+    "subtitle3": "- organizacji wydarzeń realizowanych przez jednostki strukturalne KP PIК PALAC"
+  },
+  "hubC": {
+    "subtitle": " HUB kreatywnych pomysłów - to przestrzeń w historycznym centrum Iwano-Frankiwska z zachowaną autentycznością dla jednoczenia ludzi wokół historii i dziedzictwa, dla dialogu publicznego, interakcji społeczności kulturowej; miejsce na otwarte imprezy publiczne, na realizację programów edukacyjnych; środowisko dla tworzenia i realizacji projektów z zakresu promocji i zachowania dziedzictwa kulturowego poprzez promocję turystyki; coworking."
+  },
+  "museumC": {
+    "articleTitle": "Сo ciekawego w muzeum"
+  },
+  "routesC": {
+    "title": "Trasy",
+    "subtitle": "Historyczne oraz poznawcze szlaki  „idealnymi” renesansowo-barokowymi miastami Ukrainy powołane by zostać:",
+    "subtitle1": "narzędziem do zwrócenia uwagi obywateli na znaczenie architektonicznego i urbanistycznego dziedzictwa historycznych  miast „idealnych” Ukrainy;",
+    "subtitle2": "instrumentem partnerstwa międzynarodowego, dyplomacji kulturalnej i promocji unikalnego dziedzictwa kulturowego Ukrainy w świecie poprzez integrację szlaków z przestrzenią turystyczną Wspólnoty Europejskiej.",
+    "routesBtn": "Pobierz trasę w PDF"
+  },
+  "footer": {
+  "policy": "Polityka prywatności",
+  "terms": "Warunki korzystania",
+  "copyright": "Wszelkie prawa zastrzeżone. PIK Palace,",
+    "about": "O firmie"
+},
+"contest": {
+  "header": {
+    "title": "Reinterpretacja przestrzeni",
+    "description": "Międzynarodowy konkurs architektoniczny."
+  },
+  "task": {
+    "title": "Koncepcja konkursu",
+    "description": "Adaptacja terenu dawnego zespołu Pałacu Potockich w Iwano-Frankiwsku na otwartą przestrzeń publiczną z możliwością dowolnego wyboru funkcji i zachowaniem istniejącej, historycznie ukształtowanej struktury. Znalezienie koncepcyjnych rozwiązań projektowych rewitalizacji historycznego środowiskа zespołu wraz z utworzeniem otwartych i zamkniętych przestrzeni wielofunkcyjnych - wysokiej jakości sztuczne środowisko z kontekstem historycznie-kulturowym.",
+    "subtitle": "Proponowane zasady rewitalizacji:",
+    "list": [
+        "wielofunkcyjność przestrzeni z możliwością szybkiej transformacji w środowisko zapewniające zarówno izolację, indywidualne użytkowanie, jak i użytkowanie przez grupy zwiedzających;",
+        "zachowanie historycznej struktury urbanistycznej terytorium i ducha miejsca (genius loci);",
+        "zagospodarowanie terenu zgodnie z utworzoną strukturą zespołu oraz z koncepcją zagospodarowania zespołu pałacowego;",
+        "ujednolicenie przestrzeni na zewnątrz budynków wzdłuż ogrodzenia za pomocą pawilonuw, architektury krajobrazu; przy pomocy struktur kryjących, konstrukcji mobilnych, transformerow i innych środków;",
+        "organizacja półotwartej przestrzeni komunikacyjnej pomiędzy budynkami i komfortowy ruch między nimi;",
+        "organizacja wielofunkcyjnej otwartej mobilnej przestrzeni publicznej w centralnej części parkowej zespołu;",
+        "stworzenie możliwości bezpiecznego pobytu zwiedzającym w związku z możliwym rosyjskim uderzeniem rakietowym."
+    ]
+  },
+  "schedule":{
+    "title": "Program konkursu. Kalendarz",
+    "list": [
+      {"date": "12.07.2023", "description": "etap gotowości danych początkowych &#124 początek rejestracji", "time": ""},
+      {"date": "31.10.2023", "description": "koniec okresu rejestracji(kontynuować)", "time": "23:59 – GMT"},
+      {"date": "30.01.2024", "description": "termin ostateczny nadsyłania materiałów", "time": "12:00 – GMT"},
+      {"date": "05.02.2024", "description": "zdalne spotkanie jury", "time": ""},
+      {"date": "12.02.2024", "description": "ogłoszenie wyników &#124 otwarcie wystawy", "time": ""}
+    ],
+    "free": "Zgłoszenie do konkursu jest bezpłatne.",
+    "free1": "Uczestnicy konkursu nie wnoszą opłaty rejestracyjnej."
+  },
+  "reward": {
+    "title": "Nagrody",
+    "rewards1": [
+      "Pierwsza nagroda",
+      "Druga nagroda",
+      "Trzecia nagroda"
+    ],
+    "rewards1-prize": [
+      "70 tys.",
+      "50 tys.",
+      "30 tys."
+    ],
+    "rewards2": [
+      "Nagroda honorowa ",
+      "Nagroda honorowa ",
+      "Nagroda honorowa "
+    ],
+    "rewards2-prize": [
+      "10 tys."
+    ],
+    "currency": "hrywien"
+  },
+  "sponsors": {
+    "sponsor": {
+      "title": "Organizatorzy",
+      "one": "Narodowе Stowarzyszeniе Architektów Ukrainy",
+      "two": "Przędsiębiorstwo Komunalne Przestrzeń Innowacyjnych Kreacji PALAC Rady Miejskiej Iwano-Frankiwska"
+    },
+    "suport": {
+      "title": "Ze wsparciem",
+      "one": "Departamentu Architektury, Urbanistyki i Dziedzictwa Kulturowego Rady Miejskiej Iwano-Frankowska"      
+    }
+  },
+  "media":{
+    "title": "Media"
+  },
+  "more": {
+    "title": "Pobierz szczegółowe informacje o konkursie i wszystkie niezbędne materiały z linku poniżej.",
+    "load": "Pobierz",
+    "register": "Zaloguj się"
+  }
+}
+}
