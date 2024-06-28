@@ -12,15 +12,7 @@ export default defineNuxtConfig({
         VUE_APP_API: process.env.VUE_APP_API,
     },
   },
-  vite: {
-    build: {
-      rollupOptions: {
-        output: {
-          assetFileNames: 'assets/[name].[hash].[ext]'
-        }
-      }
-    }
-  },
+
   // alias:{
   //   // "~": "/",
   //   // "@": "~/",

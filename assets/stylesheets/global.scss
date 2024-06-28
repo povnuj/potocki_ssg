@@ -167,7 +167,7 @@ section {
   padding-left: 0!important;
 
   &:after {
-    background-image: url("~@/assets/images/dark-arrow.svg")!important;
+    background-image: url("@/assets/images/dark-arrow.svg")!important;
   }
 }
 
@@ -276,7 +276,7 @@ section {
       display: block;
       width: 16px;
       height: 16px;
-      background-image: url("~@/assets/images/icons/arrow-down.svg");
+      background-image: url("@/assets/images/icons/arrow-down.svg");
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
@@ -308,7 +308,7 @@ a.btn-vue__ligth {
     top: calc(50% - 11px);
     width: 26px;
     height: 22px;
-    background-image: url("~@/assets/images/white-arrow.svg");
+    background-image: url("@/assets/images/white-arrow.svg");
     background-size: contain;
     background-repeat: no-repeat;
     transition: all .3s ease-in-out;
