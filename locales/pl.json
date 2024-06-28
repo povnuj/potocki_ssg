@@ -302,15 +302,331 @@
     "suport": {
       "title": "Ze wsparciem",
       "one": "Departamentu Architektury, Urbanistyki i Dziedzictwa Kulturowego Rady Miejskiej Iwano-Frankowska"      
+    },
+    "patron":{
+      "title": "PATRON",
+      "one": "Urban tech company blago"
     }
   },
   "media":{
     "title": "Media"
   },
+  "jury":{
+    "title":"Jurie",
+    "scheme": {
+      "img": "vs_PL.webp",
+      "title":[
+        "282 participants from 54 countries have registered for the competition.",
+        "44 projects from 14 countries have been submitted."
+      ]
+    },
+    "map":{ 
+      "img": "map_en.jpg",
+      "title":"Geography of Registered Teams and Submitted Projects"
+    },
+    "members": [
+      {
+        "img": "aleksander-janicki.jpg", 
+        "name": "Aleksander Janicki", 
+        "inf": "architect, visual artist",
+        "location": "Poland, Кrakow"
+      },
+      {
+        "img": "Scislo-prawo.jpg", 
+        "name": "Mariusz Scislo", 
+        "inf": "former president of the Union of Architects of Poland (2012-2019), architect, head of the FSP Arcus",
+        "location": "Poland, Warsaw"
+      },
+      {
+        "img": "Kyle-Gallaher.jpg", 
+        "name": "Kyle Gallaher", 
+        "inf": "landscape architect, Principal SKG Landscape Design",
+        "location": "Ireland"
+      },
+      {
+        "img": "Chyzhevskii.jpg", 
+        "name": "Oleksandr Chyzhevskii", 
+        "inf": "the president of the National Union of Architects of Ukraine",
+        "location": "Ukraine, Kyiv"
+      },
+      {
+        "img": "ck-bevz-t.jpg", 
+        "name": "Mykola Bevz", 
+        "inf": "prof., Sc.D., head of Architecture and Conservation Department at Lviv Polytechnic National University, member of ICOMOS",
+        "location": "Ukraine, Lviv"
+      },
+      {
+        "img": "Czubiński.jpg", 
+        "name": "Jacek Czubiński", 
+        "inf": "architect, Dr. Eng. arch., Institute of History of Architecture and Monument Conservation, Faculty of Architecture, Cracow University of Technology",
+        "location": "Poland, Кrakow"
+      },
+      {
+        "img": "Spytska.jpg", 
+        "name": "Dariia Spytska", 
+        "inf": "architect at Wilmotte & Associés Architectes",
+        "location": "France, Paris"
+      },
+      {
+        "img": "Mysak.jpg", 
+        "name": "Nataliia Mysak", 
+        "inf": "architect and researcher, PhD in History and Theory of Architecture, Spatial Practices Lab", 
+        "location": "Ukraine, Lviv"
+      },
+      {
+        "img": "Oksana-Savchuk-by-Fotografer-Roza-Schous.jpg", 
+        "name": "Oksana Savchuk", 
+        "inf": "architect, researcher, coordinator of Ukrainian House & co-founder of VATAHA Foundation",
+        "location": "Netherlands, Rotterdam"
+      },
+      {
+        "img": "Prokipchuk.jpg", 
+        "name": "Artur Prokipchuk", 
+        "inf": "deputy director of the Department of Urban Planning and Architecture of Ivano-Frankivsk City Council",
+        "location": "Ukraine, Ivano-Frankivsk"
+      },
+      {
+        "img": "Bogdan Hoj_cb.jpg", 
+        "name": "Bohdan Hoy", 
+        "inf": "PhD in Architecture, associate professor at Lviv Polytechnic National University, architect at “A7 Architects”",
+        "location": "Ukraine, Lviv"
+      },
+      {
+        "img": "Gajdar.jpg", 
+        "name": "Volodymyr Gajdar", 
+        "inf": "Head at the Munitipal Enterprise Space of Innovative Creativity PALACE, member of ICOMOS",
+        "location": "Ukraine, Ivano-Frankivsk"
+      },
+      {
+        "img": "lARYSA-POLISHCHUK-2.jpg", 
+        "name": "Larysa Polishchuk", 
+        "inf": "PhD in Architecture; head of the research department at the Munitipal Enterprise Space of Innovative Creativity PALACE",
+        "location": "Ukraine, Ivano-Frankivsk"
+      },
+      {
+        "img": "Duplantier.jpeg", 
+        "name": "Martin Duplantier", 
+        "inf": "CEO - Architect and Urban designer at Martin Duplantier Architectes, president of the AMO FOUNDATION",
+        "location": "France, Paris"
+      }
+    ]
+  },
   "more": {
     "title": "Pobierz szczegółowe informacje o konkursie i wszystkie niezbędne materiały z linku poniżej.",
     "load": "Pobierz",
     "register": "Zaloguj się"
+  },
+  "winners":{
+    "title": "Results of the competition",
+    "sub_title": "ZWYCIĘZCY",
+    "possitions": {
+      "second": {
+        "title": "II place",
+        "210704": {
+          "link": {
+            "text":"View project",
+            "url": "https://drive.google.com/drive/folders/1AJptFd9I1me2I6GX3yIljWf6dWbOMtqC"  
+            },
+          "list":[
+            "Agnieszka Starzyk",
+            "Kinga Rybak-Niedziółka",
+            "Mikołaj Donderewicz", 
+            "Przemysław Łacek",
+            "Karol Langie", 
+            "Polina Vietrova",
+            "Ivanna Voronkova"
+          ],
+          "work_list":[
+            "Architect, PhD, DSc, Head of the Department of Architecture, Warsaw University of Life Sciences",
+            "Architect, PhD, DSc, Department of Architecture Warsaw University of Life Sciences",
+            "Architect, PhD Student of the Department of Architecture Warsaw University of Life Sciences",
+            "Architect, PhD Student of the Department of Architecture Warsaw University of Life Sciences",
+            "Architect, PhD Student of the Department of Architecture Warsaw University of Life Sciences",
+            "Architect, Assistant of the Department of Architecture Warsaw University of Life Sciences",
+            "Architect, Assistant of the Department of Architecture Warsaw University of Life Sciences"
+          ],
+          "country": "Poland, Warsaw"
+        },
+        "505375": {
+          "link": {
+            "text":"View project",
+            "url": "https://drive.google.com/drive/folders/1h8VJ9hTibXVSylsvSSzxqqz8CuM4JoGb"  
+            },
+          "list":[
+            "Halyna Lukomska",
+            "Oleh Vodvud"
+          ],
+          "work_list":[
+            "Architect, PhD, associate professor at the Department of Architecture and Urban Planning of Ivano-Frankivsk National Technical University of Oil and Gas",
+            "Architect, MSc, lecturer at the Department of Architecture and Urban Planning of Ivano-Frankivsk National Technical University of Oil and Gas"
+          ],
+          
+          "country": "Ukraine, Ivano-Frankivsk"
+        }
+      },
+      "third": {
+        "title": "III place",
+        "134340": {
+          "link": {
+            "text":"View project",
+            "url": "https://drive.google.com/drive/folders/1BU6M8MaTDUHR_L_-7nGe0wFlGI5UE0MZ"  
+            },
+          "list":[
+            "Anna Maria Wierzbicka",
+            "Paweł Trębacz",
+            "Jakub Pieńkowski",
+            "Filip Strzelecki",
+            "Jasmina Aboulker",
+            "Weronika Adach",
+            "Julia Jędrys",
+            "Aleksandra Snopkowska",
+            "Maria Wito"
+          ],
+          "work_list":[
+            "Architect, PhD, DSc, Professor of Warsaw University of Technology. Head of Architectural and Urban Design Department, Faculty of Architecture WUT",
+            "Architect, PhD, Assistant professor, Architectural and Urban Design Department, Faculty of Architecture Warsaw University of Technology",
+            "Architect, MSc, Assistant, Faculty of Architecture, Warsaw University of Technology",
+            "Architect, MSc, Assistant, Faculty of Architecture Warsaw University of Technology",
+            "Architect, BSc, Student, Faculty of Architecture, Warsaw University of Technology",
+            "Architect, BSc, Student, Faculty of Architecture, Warsaw University of Technology",
+            "Architect, BSc, Student, Faculty of Architecture, Warsaw University of Technology",
+            "Architect, BSc, Student, Faculty of Architecture, Warsaw University of Technology",
+            "Architect, BSc, Student, Faculty of Architecture, Warsaw University of Technology"
+          ],
+          "country": "Poland, Warsaw"
+        },
+        "204080": {
+          "link": {
+            "text":"View project",
+            "url": "https://drive.google.com/drive/folders/1tN_eAZYzqmUJNQb3NUcE11Omj03iorZQ"  
+            },
+          "list":[
+            "Andrii Nazarenko",
+            "Khrystyna Kosmii"
+          ],
+          "work_list":[
+            "Architect at N+K Architectvra. Received bachelor's and master's degrees at Lviv Polytechnic National University. Worked at Planungsbüro Schubert (Dresden, Germany) and Unika Architecture&Urbanism (Lviv, Ukraine), the curator of the architectural direction at the CO \"Teple Misto\"",
+            "Architect at N+K Architectvra. Received bachelor's and master's degrees at Lviv Polytechnic National University. Worked as the curator of the architectural direction at the CO \"Teple Misto\""
+          ],
+          "country": "Ukraine, Ivano-Frankivsk"
+        }
+      }
+    },
+    "honors": {
+      "title": "Honorable mention",
+      "120989": {
+        "link": {
+          "text":"View project",
+          "url": "https://drive.google.com/drive/folders/1cjTRUgiKKzw4L7HyKoDPaaexA7CV5t80"  
+          },
+        "list":[
+          "Vasilis Marcou-Ilchuk"
+        ],
+        "work_list":[
+         "Member of the Royal Institute of British Architects (RIBA), the Architects Registration Technical Chamber (ΕΤΕΚ). Co-founder of ANA a research-based design practice. Vasilis studied at The Bartlett School of Architecture (BSA) where he completed both his undergraduate and master’s degree receiving a distinction. Alongside practice, he is a design tutor at the BSA where he teaches on the BSc architecture programme."
+        ],
+        "country": "United Kingdom, London"
+      },
+      "646248": {
+        "link": {
+          "text":"View project",
+          "url": "https://drive.google.com/drive/folders/1Fohq1iPk2EKXoOFd1Dt7ir3bk9likZh7"  
+          },
+        "list":[
+          "Jorge Mastropietro",
+          "Clara Mastropietro",
+          "Carlos Chacón",
+          "Suzette Wong",
+          "Sofía Cossettini",
+          "Pablo Palomeque",
+          "Victoria Calderan"
+        ],
+        "work_list":[
+         "Registered Architect in New York and in Argentina, member of the American Institute of Architects (AIA) and the Colegio de Arquitectos de Buenos Aires",
+         "Architect, BSc, National University of La Plata, Buenos Aires, Argentina",
+         "Architect, BSc, National Experimental University of Tachira, Venezuela. Specialty in BIM Methodology at The University of Buenos Aires, Argentina",
+         "Architect, BSc, Peruvian University of Applied Sciences, Lima, Peru",
+         "Architect, BSc, Moron University, Buenos Aires, Argentina",
+         "Is pursuing a bachelor's degree at the National University of General San Martin, Buenos Aires, Argentina",
+         "Is pursuing a bachelor's degree at the University of Buenos Aires, Argentina"
+        ],
+        "country": "USA, New York"
+      },
+      "031301": {
+        "link": {
+          "text":"View project",
+          "url": "https://drive.google.com/drive/folders/1SCkdPftmXn3HVrkRV2qe5EoGPdyf8HHj"  
+          },
+        "list":[
+          "Aksinia Potyliko",
+          "Yaroslav Sarazhinsky"
+        ],
+        "work_list":[
+         "Lead architect, MSc. Graduated from the Urban Planning Department at The Kyiv National University of Construction and Architecture",
+         "Lead architect, Head of the Design Department, MSc. PhD student of the Urban Planning Department at the Kyiv National University of Construction and Architecture. Additionally, holds higher education degrees in economics and project management"
+        ],
+        "country": "Ukraine, Kyiv"
+      }
+
+    }
+  },
+  "comment_jury": {
+    "title": "UWAGI JURY",
+    "btn": "Zobacz wszystko",
+    "btn_hide": "Ukryj",
+    "autor":[
+      "Mykola Bevz",
+      "Mariusz Ścisło",
+      "Kyle Gallaher",
+      "Jacek Czubiński",
+      "Oksana Savchuk",
+      "Aleksander Janicki",
+      "Martin Duplantier"
+    ],
+    "comment": [
+      "Jestem przekonany, że wśród zwycięzców powinny znaleźć się projekty, które rozumieją „genius loci” tego wyjątkowego miejsca. Zespół pałacowy to obiekt barokowy, w którym zachował się półotwarty dziedziniec i oś kompozycyjna, która kiedyś zamykała się na pałacu. Choć struktura urbanistyczna została utracona, jest ona czytelna poprzez elementy. I nawet fakt, że tam powstał szpital, jest wpisany w strukturę tego środowiska. Na całym obwodzie zachowały się także wały obronne, które również stanowią element nienaruszony, i podobnie jak należy przeprowadzić badania archeologiczne na terenie pałacu, fortyfikacje muszą zostać objęte ochroną konserwatorską. <br><br> Parterowe środowisko placu pomiędzy bramą a pałacem znajduje się na mapach historycznych, gdzie wskazano charakter tego otoczenia – dwa barokowe elementy parteru po lewej i prawej stronie oraz wolna przestrzeń pośrodku. Tej barokowej koncepcji nie można zakłócać – jest to element konserwacji, zgodność z tą koncepcją leży na płaszczyźnie światowych trendów w zakresie renowacji i norm restauratorskich. <br><br> Więc nie ma żadnego projektu, w którym zostałyby wprowadzone takie właśnie zasady konserwatorskie, ale są projekty, które pozwalają je skorygować w kierunku konserwatorskim. Większą grupę stanowią projekty, które rysują zupełnie inny kierunek i przy tym lekceważą historyczną urbanistyczną kompozycję zespołu. Dlatego proponujemy wybierać projekty, które nadają się do realizacji dziedziczną koncepcję i reintegracji, ponieważ mamy słowo „re-” – przywrócenie utraconego obiektu. <br><br> Wybór drugiego miejsca jest właściwy, ponieważ te projekty mają cechy, które mogą nie być zbyt dobrym rozwiązaniem w danej sytuacji, ale tworzą środowisko mniej więcej odpowiadające samemu obiektowi, który jest unikalnym zabytkiem architektury i urbanistyki. Ogólnie żaden projekt nie spełnia w pełni kryteriów konkursu, więc fakt, że nie przyznaliśmy pierwszego miejsca jest sprawiedliwy. <br><br> <b>505375</b>. Dobrym pomysłem jest projekt z okręgiem pośrodku. Pomysł podobnego szanowanego koła był często używany w zespole barokowym podczas projektowania obszarów. Można zatem zrozumieć autora, że ​​wybrał tę drogę, choć jego układ krajobrazowy jest całkowicie niezgodny z barokową przestrzenią między pałacową. <br><br> <b>134340</b>. Mamy tu do czynienia z interwencją całkowicie niezgodną z zabytkiem architektury i urbanistyki. Szczególnie nieudanym rozwiązaniem uważamy galerię obwodową z chodnikiem na górze oraz nową bryłę-akcent w miejscu pałacu z wejściem w wał. Także   uważamy, że w projekcie jest absolutne niezrozumienie historycznego przeznaczenia przestrzeni placu, który ma poprzeczne osie, a nie jest zorientowany na główną oś. Ponieważ ta oś, zaznaczona jedną zachowaną bramą, istniała od założenia zespołu, była zorientowana na drugą bramę w obronnym wału. Innymi słowy, w koncepcji projektowej brakuje zrozumienia zasady historycznego zespołu. <br><br> <b>031301</b>. Projekt ma tę atrakcyjną cechę, że pojawia się tu idea pałacu-symbolu, ale jest to budynek zbyt znaczący. W miejscu obwarowań bastionowych utworzono także halę. Moim zdaniem ta interwencja jest niezgodna z zabytkiem architektury i urbanistyki. <br><br> <b>148808</b>. W tym projekcie obecna jest także idea pałacu-symbolu, ale jest znacznie bardziej tolerancyjna w porównaniu z poprzednim projektem. Tutaj istniejące budynki są tylko przykryte powłoką, inteligentnie zaznaczone prawdopodobne kontury pałacu. Projekt jest znacznie mniej inwazyjny niż <b>031301</b>.",
+      "<b>210704</b>. Moim zdaniem, to najlepszy projekt. <b>505375</b>. Praca podobnie jak pierwsza jest bardzo minimalistyczna z dużą dozą kultury, przy minimalistycznym podejściu do organizacji przestrzeni, zasługuje na miejsce w pierwszej trójce prac. Jednocześnie nie ma projektu idealnego, dlatego też decyzja jury o zajęciu drugiego miejsca dla projektów <b>210704</b> i <b>505375</b> nie budzi zastrzeżeń, gdyż każdy z nich ma pewne braki. <br><br> Wolę też projekt <b>120989</b>. To atrakcyjne rozwiązanie, w którym zastosowano niezbyt agresywne elementy, przy niewielkiej ingerencji w przestrzeń. Ale i ta decyzja nie opiera się na charakterystycznej dla baroku strukturze urbanistycznej. Jednocześnie praca ta jest dobrze zaprezentowana z bardzo ciekawą wizualizacją. <br><br> Natomiast istnieje kilka prac, które wykorzystują nową zabudowę, która może pojawić się gdzie indziej, niekoniecznie w otoczeniu zabytkowych budynków (projekt <b>134340</b>). W mojej ocenie projekt ten nie spełnia warunków konkursu, harmonijnej adaptacji na rzecz zachowania i adaptacji obiektów zabytkowych. Nie rozumiem po co wprowadza się tu tarasy i mostki wokół obiektów zabytkowych, kiedy mówimy o idei konkursu – harmonijne włączenie nowych elementów, które należy wprowadzić kulturowo, w zamian nowe konstrukcje zrównują obiekty historyczne i naruszają wymogi konserwatorskie. Widzimy niespójność z zadaniami konkursu. <br><br> <b>646248</b>. Projekt ten jest akceptowalny, ale na przykład szklane wieże, różne konstrukcje są wątpliwe w przypadku rozwiązania projektowego. To nie jest kultura ochrony starożytnej przestrzeni, którą preferujemy i akceptujemy. Inwestycje potrzebne do realizacji tego projektu są, moim zdaniem, zbyt drogie i niepotrzebne. <br><br> <b>204080</b>. W tym projekcie nie ma zbyt mocnych interwencji, może być zalecany do honorowego wyróżnienia. <br><br> <b>148808</b>. Wiele pytań do tego projektu, decyzje nie są odpowiednie dla tego miejsca, nie dla miejsca ochrony zabytków. Projekt rozbudowuje i rozwija budynki, które powinny być zachowane w swojej pierwotnej formie. Zbyt wiele interwencji w substancję historyczną. Atrakcyjne rozwiązanie, ale nie na ten konkurs, bo metalową konstrukcję można było zaprojektować gdzie indziej, ale nie w strefie specjalnej ochrony zabytków.",
+      "Nie było dla mnie zaskoczeniem, gdy okazało się, że dwa zespoły, które moim zdaniem zaprezentowały najmocniejsze projekty, to tak naprawdę mieszkańcy Iwano-Frankiwska. Oczywiście, że te zespoły mają głębokie zrozumienie tego miejsca, a także osobistą więź z Pałacem. <br><br> Jeśli organizatorzy konkursu planują utworzenie grupy zadaniowej ds. ostatecznego rozwoju obiektu, zalecałbym włączenie tych dwóch zespołów. <br><br> <b>204080</b>. Na pierwszy rzut oka projekt ten wzbudził we mnie dużą sympatię, a im więcej na niego patrzyłem i porównywałem z innymi, tym szybciej stawał się moim ulubionym. Miejsce Pałacu Potockich nie potrzebuje „inteligentnych” koncepcji i odważnych pomysłów – wręcz przeciwnie. <br><br> Najważniejsze jest, że to miejsce wymaga zrozumienia i powściągliwości. Następnie potrzebny jest projekt charakteryzujący się prostotą i elegancją, oparty na dokładnej specyfikacji wysokiej jakości twardych materiałów oraz inteligentnym i starannie dobranym projekcie nasadzeń. Uważam, że ten projekt oferuje najlepszą opcję osiągnięcia tego celu. <br><br> Ponadto projekt ten demonstruje jasne zrozumienie relacji pomiędzy Pałacem a centrum miasta oraz roli Pałacu w dziedzictwie kulturowym miasta. Do realizacji prostego i pewnego projektu wymagana jest dojrzałość i wiara we własną kreatywność. Dzięki temu zespołowi stało się to możliwe. <br><br> <b>505375</b>. To bardzo mocny projekt, spodobała mi się jego prostota i szacunek dla istniejącej, stuletniej już architektury. Szczególnie spodobał mi się Zielony Korytarz i myślę, że pomysł z amfiteatrem sprawdziłby się w tej lokalizacji. <br><br> Moje główne zastrzeżenie jest takie, że uważam, że jest za dużo trawy – wygląda świetnie w prezentacji, ale biorąc pod uwagę klimat zachodniej Ukrainy i duży cień w wielu miejscach, jest to całkowicie niepraktyczne w obszarach o dużym natężeniu ruchu pieszego. Jednakże zastąpienie niektórych obszarów trawiastych odpowiednimi twardymi materiałami, a innych odpowiednimi niskimi roślinami zimozielonymi lub trawami ozdobnymi może przenieść ten projekt na nowy poziom. Ogólnie ma wiele elementów, które moim zdaniem zasługują na dodanie lub dostosowanie do ostatecznego rozwiązania dla tej lokalizacji. <br><br> <b>210704</b>. Choć rozumiem, że projekt ten był bardzo popularny wśród wielu członków jury, to ja osobiście nie byłem jego fanem. Uważam, że został on niedostatecznie przeanalizowany i przeładowany koncepcjami, a „koncepcja Mondriana” (każdy konkurs ma taki) rzadko się sprawdza, bo koncepcje oparte na dwuwymiarowej płaszczyźnie nie mają przełożenia na świat rzeczywisty. Zgadzam się jednak, że autorzy pokazali wysoki poziom talentu i pomysłów, a przy większym doświadczeniu mają przed sobą wspaniałe kariery. <br><br> <b>134340</b>. Podwyższony chodnik podzielił opinię jury – sprytnym pomysłem było utworzenie zadaszonego mostu łączącego budynki na obrzeżach terenu, pozostawiając w ten sposób dużą część wewnętrznej przestrzeni nienaruszoną. Jednak struktura, a może sposób, w jaki została przedstawiona, wydaje się dość dominująca. Być może idealnym kompromisem byłaby lżejsza konstrukcja. Choć sam w sobie był to mocny pomysł, prezentacja projektu nie oferuje prawie nic, jeśli chodzi o pomysłach na obszar centralny. <br><br> <b>120989</b>. Projekt każdego elementu konstrukcyjnego był prosty i adekwatny do miejsca, jednak czułem, że było zbyt wiele konstrukcji, które razem przepełniły przestrzeń. Bardzo podobała mi się dbałość o szczegóły w twardych materiałach, była cudowna mieszanka różnych materiałów, każdy odpowiedni do przestrzeni, tworząc wyraźną hierarchię ruchu. Podobnie jak w innych projektach, widzimy ponowne wykorzystanie trawy jako materiału do przykrycia gleby. Trawa jest absolutnie nieodpowiednia dla klimatu zachodniej Ukrainy, szczególnie w cieniu dużej liczby dojrzałych drzew. Istnieje jednak szeroka lista odpowiednich zamienników, które idealnie pasują do tego projektu. <br><br> Muszę pochwalić autora za świetną prezentację projektu. <br><br> <b>646248</b>. W pełni zbyt zaprojektowany, całkowicie nieodpowiedni dla środowiska. Jest kilka ciekawych funkcji i są one wyraźnie przedstawione, ale nie pasują do tego miejsca. <br><br> <b>031301</b>. Podobała mi się prostota i otwarte przestrzenie oraz akcent na zielone materiały, ale znowu widzimy nadmierne wykorzystanie trawy pod dojrzałymi drzewami.",
+      "Trudno podjąć decyzję. Na projekt <b>210704</b> reakcja jest bardzo pozytywna, co sugeruje, że jest on bardzo realny do realizacji. Jego koszty nie są zbyt wysokie, co jest niewątpliwym plusem. Zgadzam się, że ten projekt może być jednym z najlepszych. Jednocześnie ma on szereg wad, brakuje aktywnego wskaźnika miejsca. Podstawową wadą jest, moim zdaniem, dekompozycja centralnej części, w której nie odzwierciedlono tego, co można by nazwać «focal point» centralnego placu. To mogło być nawiązanie do fazy barokowej. Cała centralna część jest rozproszona, podzielona na drobne fragmenty, które nie mają jasnej, spójnej kompozycji. Oś między bramą a budynkiem pałacu, którego widzimy dzisiaj częściowo, nie jest w pełni czytelna, ale jasne jest, że była tam. W projekcie oś nie jest czytelna; składają się na nią drobne elementy oraz dwa place. Plac na południu jest asymetryczny w stosunku do tego na północy, oba nie są powiązane żadnym spójnym pomysłem. W rezultacie widzimy bałagan kompozycyjny, brakuje jasnej barokowej kompozycji.",
+      "<b>031301</b>. Ten projekt jest bardzo interesujący, jeśli traktujemy wszystkie projekty nie jako projekty do realizacji, ale jako kierunki ruchu, dla jakiejś publicznej dyskusji wokół przyszłego kompleksu. W takim przypadku ten projekt stanowi świetny przykład innowacyjnego podejścia do zachowania dziedzictwa architektonicznego. Chodzi tu nie tylko o fizyczne zachowanie budynków, ale także o ich reprezentacyjną funkcję jako pałacu – czegoś okazałego, ważnego i imponującego. Dlatego podobał mi się render z wałami, który całkowicie nie szanuje historycznego otoczenia, ale tworzy wyraziste obrazy, które wzbudzają emocje. Dlatego uważam, że ten projekt zasługuje na wyróżnienie lub powinien być prezentowany, aby wzbudzić dyskusję na temat tego miejsca. Dyskusja zawsze jest potrzebna, nawet po to, by odrzucić tę opcję. Dlatego właśnie, że ten obraz jest tak atrakcyjny, wpływa na nasze myśli o tym, w jakim kierunku chcemy się rozwijać jako społeczeństwo. Jeśli patrzeć w przyszłość, dla pewnych kampanii crowdfundingowych ten obraz jest znacznie silniejszy niż inne przedstawione w projektach.",
+      "Moim zdaniem istnieje kilka bardzo interesujących prac, które mogą nie spełniać wymagań i mają piętro -1. Jednak uderzającym przykładem jest metro w Atenach. Uważam, że może to być cenny, a nawet ważny aspekt. Jak wiadomo, podczas budowy metra w Atenach dokonano tysięcy odkryć archeologicznych. Doprowadziło to do zorganizowania wystawy archeologicznej w metrze, co moim zdaniem jest bardzo interesującym i ważnym wydarzeniem kulturalnym. Rozumiem jednak, że może to prowadzić do zwiększenia kosztów budowy. To duży wysiłek. Jeśli weźmiemy pod uwagę sytuację na Ukrainie, gdzie bunkry, schroniska przeciwbombowe i bezpieczeństwo stają się coraz ważniejsze, być może istnieje możliwość połączenia tych dwóch aspektów.",
+      "Nie można powiedzieć, które jest pierwsze, drugie czy trzecie miejsce; nie było przekonującego efektu żadnej pracy, wiele projektów ma swoje plusy i minusy. Warto wybrać grupę projektów z dobrymi pomysłami, które prezentują możliwości i koncepcje. Moim zdaniem nie było projektu, który mógłby zająć pierwsze miejsce. Nie wybieramy zwycięzców, wybieramy rodzinę projektów, aby pokazać sposoby zachowania dziedzictwa."
+    ]
+  },
+  "prize_redistribution":{
+    "title": "REDYSTRYBUCJA FUNDUSZU NAGRÓD",
+    "text": "Zgodnie z decyzją jury konkursu:",
+    "prize": {
+      "first": {
+        "title": "Pierwsza nagroda",
+        "list": [
+          "– nie została przyznana"
+        ]
+      },
+      "second": {
+        "title": "Druga nagroda",
+        "list": [
+          "50 000 UAN",
+          "50 000 UAN"
+        ]
+      },
+      "third": {
+        "title": "Trzecia nagroda",
+        "list": [
+          "30 000 UAN",
+          "30 000 UAN"
+        ]
+      },
+      "honors": {
+        "title": "Wyróżnienie honorowe",
+        "list": [
+          "10 000 UAN",
+          "10 000 UAN",
+          "10 000 UAN"
+        ]
+      }
+      
+    }
   }
 }
 }
