@@ -3,9 +3,9 @@
     <div class="first-screen flex" id="first-section-scroll">
       <div class="content-wrap">
         <div class="first-screen-img">
-          <video loop muted autoplay poster="../assets/images/main-page-bg.png">
-            <source src="../assets/video/promo.webm" type="video/webm" />
-            <source src="../assets/images/video/promo.mp4" type="video/mp4" />
+          <video  loop muted autoplay poster="../assets/images/main-page-bg.png">
+            <source src='@/public/images/video/promo.webm' type="video/webm" /> 
+            <!-- <source src="@/assets/video/promo.mp4" type="video/mp4" /> -->
           </video>
           <div class="first-screen-img__item first-screen-img__item-left"></div>
           <div class="first-screen-img__item first-screen-img__item-right"></div>
@@ -112,6 +112,7 @@
 <script setup>
 //import { Carousel } from 'vue3-carousel-nuxt';
 import { useI18n } from 'vue-i18n'
+// const videoSrc = require('~/assets/video/promo.webm')
 
 const { t } = useI18n();
 

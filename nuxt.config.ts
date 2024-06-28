@@ -12,14 +12,23 @@ export default defineNuxtConfig({
         VUE_APP_API: process.env.VUE_APP_API,
     },
   },
-  alias:{
-    // "~": "/",
-    // "@": "~/",
-    "~~": "/<rootDir>",
-    "@@": "/<rootDir>",
-    "@assets": "./assets",
-    "public": "/<srcDir>/public"
+  vite: {
+    build: {
+      rollupOptions: {
+        output: {
+          assetFileNames: 'assets/[name].[hash].[ext]'
+        }
+      }
+    }
   },
+  // alias:{
+  //   // "~": "/",
+  //   // "@": "~/",
+  //   "~~": "/<rootDir>",
+  //   "@@": "/<rootDir>",
+  //   "@assets": "./assets",
+  //   "public": "/<srcDir>/public"
+  // },
   ssr: true,
   app: {
     //baseURL: ,

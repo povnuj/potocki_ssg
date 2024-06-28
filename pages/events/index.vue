@@ -154,8 +154,8 @@ export default {
     this.getPastEvents();
     
   },
-  onMounted(){
-  },
+  // onMounted(){
+  // },
   methods: {
 
     async getRecentEvents(){
