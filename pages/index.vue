@@ -3,9 +3,9 @@
     <div class="first-screen flex" id="first-section-scroll">
       <div class="content-wrap">
         <div class="first-screen-img">
-          <video  loop muted autoplay poster="../assets/images/main-page-bg.png">
+          <video  loop muted autoplay poster="@/public/images/main-page-bg.png">
             <source src='@/public/images/video/promo.webm' type="video/webm" /> 
-            <!-- <source src="@/assets/video/promo.mp4" type="video/mp4" /> -->
+            <source src="@/public/images/video/promo.mp4" type="video/mp4" /> 
           </video>
           <div class="first-screen-img__item first-screen-img__item-left"></div>
           <div class="first-screen-img__item first-screen-img__item-right"></div>
@@ -28,7 +28,7 @@
         </div>
         <div class="row-vue space-btw">
           <div class="row-vue__item palace-map">
-            <img src="../assets/images/palace-map.svg" alt="Potocki Palace">
+            <img src="@/public/images/palace-map.svg" alt="Potocki Palace">
           </div>
           <div class="row-vue__item text-item">
             <div class="section-text">
@@ -226,7 +226,7 @@ export default {
     margin-bottom: 60px;
     margin-right: -81px;
     position: relative;
-    background-image: url("@/assets/images/main-page-bg.png");
+    background-image: url("@/public/images/main-page-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -251,14 +251,14 @@ export default {
         left: 0;
         width: 288px;
         height: 144px;
-        background-image: url("@/assets/images/main-page-bg-1.svg");
+        background-image: url("@/public/images/main-page-bg-1.svg");
       }
       &-right {
         top: 0;
         right: 0;
         width: 360px;
         height: 240px;
-        background-image: url("@/assets/images/main-page-bg-2.svg");
+        background-image: url("@/public/images/main-page-bg-2.svg");
       }
     }
   }
@@ -284,7 +284,7 @@ export default {
       left: calc(50% - 26px);
       width: 52px;
       height: 42px;
-      background-image: url("@/assets/images/arrow-down.svg");
+      background-image: url("@/public/images/arrow-down.svg");
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
@@ -367,7 +367,7 @@ export default {
     .carousel__next {
       height: 100%;
       width: 36px;
-      background-image: url("@/assets/images/icons/arrow-active.png");
+      background-image: url("@/public/images/icons/arrow-active.png");
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -436,7 +436,7 @@ section.carousel {
     background-color: transparent;
     border: 1px solid #32404E;
     &:after {
-      background-image: url("../assets/images/dark-arrow.svg");;
+      background-image: url("@/public/images/dark-arrow.svg");;
     }
     @media (max-width: 992px) {
       max-width: 301px;
@@ -468,28 +468,28 @@ section.carousel {
         background-size: contain;
 
         &-1 {
-          background-image: url("../assets/images/icons/services/1.png");
+          background-image: url("@/public/images/icons/services/1.png");
         }
         &-2 {
-          background-image: url("../assets/images/icons/services/2.png");
+          background-image: url("@/public/images/icons/services/2.png");
         }
         &-3 {
-          background-image: url("../assets/images/icons/services/3.png");
+          background-image: url("@/public/images/icons/services/3.png");
         }
         &-4 {
-          background-image: url("../assets/images/icons/services/4.png");
+          background-image: url("@/public/images/icons/services/4.png");
         }
         &-5 {
-          background-image: url("../assets/images/icons/services/5.png");
+          background-image: url("@/public/images/icons/services/5.png");
         }
         &-6 {
-          background-image: url("../assets/images/icons/services/6.png");
+          background-image: url("@/public/images/icons/services/6.png");
         }
         &-7 {
-          background-image: url("../assets/images/icons/services/7.png");
+          background-image: url("@/public/images/icons/services/7.png");
         }
         &-8 {
-          background-image: url("../assets/images/icons/services/8.png");
+          background-image: url("@/public/images/icons/services/8.png");
         }
       }
 
@@ -506,7 +506,7 @@ section.carousel {
     border: 1px solid #32404E;
 
     &:after {
-      background-image: url("../assets/images/dark-arrow.svg");
+      background-image: url("@/public/images/dark-arrow.svg");
     }
   }
 }

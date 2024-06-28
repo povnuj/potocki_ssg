@@ -206,7 +206,7 @@ export default {
                   ogTitle: this.event.attributes.title.uk,
                   description: this.event.attributes.location.uk,
                   ogDescription: this.event.attributes.location.uk,
-                  ogImage: seoVal.attributes.main_image,
+                  ogImage: "seoVal.attributes.main_image",
                   twitterCard: 'summary_large_image',
                 })
             }
