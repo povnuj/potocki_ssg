@@ -172,7 +172,7 @@ export default {
 
     async getCarouselEvents(){
       try {
-        const response = await fetch(this.config.public.VUE_APP_API + '/api/v1/events/recent');
+        const response = await fetch("https://picpalace.com.ua" + '/api/v1/events/recent');
         const data = await response.json();
         this.carouselEvents = data.data;
         // console.log(this.carouselEvents);
@@ -183,7 +183,7 @@ export default {
 
     async getServicesList(){
       try {
-        const response = await fetch(this.config.public.VUE_APP_API + '/api/v1/services');
+        const response = await fetch('https://picpalace.com.ua' + '/api/v1/services');
         const data = await response.json();
         this.servicesList = data.data;
         // console.log(this.servicesList);
