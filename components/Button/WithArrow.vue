@@ -14,7 +14,7 @@ definePageMeta({
 
 </script>
 
-<style lang='scss' >
+<style lang='scss' scoped>
 .btn-vue {
   position: relative;
   padding: 9px 50px 9px 12px;
