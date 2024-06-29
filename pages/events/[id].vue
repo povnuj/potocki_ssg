@@ -143,20 +143,22 @@ try {
     console.error('Error fetching seo events:', error);
   }
 
-
-    console.log("event =>", event)
-    console.log("eventType =>",eventType)
-    console.log("locale =>",locale.value)
-
-    
+const returnLocale = () => {
+    if (locale.value === 'ua') return {lang:'uk', code: 'uk-UA'}
+    if (locale.value === 'en') return {lang:'en', code: 'en-US'}
+    if (locale.value === 'pl') return {lang:'pl', code: 'pl-PL'}
+    return {lang:'uk', code: 'uk-UA'}
+};    
 
 
 useSeoMeta({
-   title: event.attributes.title.uk,
-   ogTitle: event.attributes.title.uk,
-   description: event.attributes.content.uk,
-   ogDescription: event.attributes.content.uk,
+   title: event.attributes.title[returnLocale().lang],
+   ogTitle: event.attributes.title[returnLocale().lang],
+   description: event.attributes.location[returnLocale().lang],
+   ogDescription: event.attributes.location[returnLocale().lang],
    ogImage: event.attributes.main_image,
+   ogType:'article',
+   ogLocale: returnLocale().code,
    twitterCard: 'summary_large_image',
  })
 
