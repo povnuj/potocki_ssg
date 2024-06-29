@@ -1,21 +1,28 @@
 <template>
-    <h1> {{ val.title}}</h1>
-    <img :src="val.url" :alt="val.title" style="max-width: 300px;">
-    <h2>{{val.price}}</h2>
+
 </template>
 <script setup>
-const dataFetch = await $fetch('https://coffee-culture-3341b-default-rtdb.firebaseio.com/Products.json')
 
-const route = useRoute();
+import { ref, watchEffect } from 'vue'
+import { useRoute, useFetch } from 'nuxt/app';
+//const { t, locale } = useI18n();
+
+const route = useRoute()
+const type = ref(route.query.type)
+const id = ref(route.query.id)
+let seoVal = {};
+///546546sdsd1
+const dataFetch = await $fetch(`https://wordslearning-255d7-default-rtdb.firebaseio.com/testblog/${route.params.id}.json`)
+//const dataFetch = await response.json();
+console.log("resp",dataFetch);
 const val = {
-    title: dataFetch[0].name,
-    price: dataFetch[0].price,
-    url: dataFetch[0].url,
+    title: dataFetch.name,
+    price: dataFetch.id,
+    url: dataFetch.img,
 };
 definePageMeta({
-  prerender: true,
-  title: 'Some Page',
-  ogTitle: 'My Amazing Site',
+  layout: 'dark',
+  
 })
 useSeoMeta({
   title: () => val.title,

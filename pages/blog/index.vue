@@ -1,24 +1,32 @@
 <template>
+    <div >
     <h1>Welcome to blog</h1>
-    <ul>
-      <li v-for="(data, i) in dataFetch" :key="i">
-        <NuxtLink :to="'/blog/' + data.name">{{data.name}}</NuxtLink> 
-        <h2></h2>
-        <h3></h3>
+    <ul style="margin-top: 100px">
+      <li v-for="(data) in arr" :key="data.id">
+        <NuxtLink :to="'/blog/' + data.id">{{data.name}}</NuxtLink> 
       </li>
     </ul>
+  </div>
 </template>
 
 <script setup>
-const dataFetch = await $fetch('https://coffee-culture-3341b-default-rtdb.firebaseio.com/Products.json')
-useSeoMeta({
-  title: dataFetch[0].name || 'My Amazing Site',
-  ogTitle: 'My Amazing Site',
-  description: 'This is my amazing site, let me tell you all about it.',
-  ogDescription: 'This is my amazing site, let me tell you all about it.',
-  ogImage: 'https://assets-global.website-files.com/658aa4775c8768ba42215cd2/660421c94eae48c1878d06d8_2_545202429576716370821.png',
-  twitterCard: 'summary_large_image',
-})
+const dataFetch = await $fetch('https://wordslearning-255d7-default-rtdb.firebaseio.com/testblog.json')
+let arr = [];
+async function getSeo(url){
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+    data.data
+    for(let key in data.data){
+      arr.push({id: key, name: data.data[key].name, img: data.data[key].img})
+    }
+    
+  } catch (error) {
+    console.error('Error fetching seo events:', error);
+  }
+}
+getSeo('https://wordslearning-255d7-default-rtdb.firebaseio.com/testblog.json');
+
 //console.log(dataFetch)
 </script>
 <script>
