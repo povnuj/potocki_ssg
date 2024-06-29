@@ -55,7 +55,7 @@
                 $i18n.locale === 'en' ? event.attributes.title.en :
                     event.attributes.title.uk }}
             </div>
-            <NuxtLinkLocale :to="{path: 'event', query:{type: 'recent',id: event.id}}" class="btn-details"> 
+            <NuxtLinkLocale :to="{path: 'events'+'/' + event.id, query:{type: 'recent'}}" class="btn-details"> 
               {{ $t('events.details') }}
               <span class="btn-details__icon"></span>
             </NuxtLinkLocale>

@@ -29,7 +29,7 @@ useSeoMeta({
   ogTitle: () => val.title + 'ssdss',
   description: 'This is my amazing site, let me tell you all about it.',
   ogDescription: 'This is my amazing site, let me tell you all about it.',
-  ogImage: 'https://assets-global.website-files.com/658aa4775c8768ba42215cd2/660421c94eae48c1878d06d8_2_545202429576716370821.png',
+  ogImage: val.url,
   twitterCard: 'summary_large_image',
 })
 // useServerSeoMeta({
