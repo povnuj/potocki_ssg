@@ -22,6 +22,7 @@ export default defineNuxtConfig({
   //   "public": "/<srcDir>/public"
   // },
   ssr: true,
+  pages: true,
   app: {
     //baseURL: ,
     head: {

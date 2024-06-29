@@ -107,55 +107,77 @@
   </template>
   
 <script setup>
-import { useRoute } from 'vue-router'
 import { ref, watchEffect } from 'vue'
-const { t, locale } = useI18n();
+import { useRoute, useFetch } from 'nuxt/app';
+//const { t, locale } = useI18n();
 
-// Доступ до параметрів запиту за допомогою useRoute
 const route = useRoute()
 const type = ref(route.query.type)
 const id = ref(route.query.id)
 let seoVal = {};
+
+
+
+
 //console.log("seoVal",seoVal)
-
-// if (type.value === 'recent') {
-//       //eventUrl = this.config.public.VUE_APP_API +'/api/v1/events/recent'
-//       getSeo('https://picpalace.com.ua/api/v1/events/recent')
-//     }
-//     if (type.value === 'past') {
-//       //eventUrl = this.config.public.VUE_APP_API +'/api/v1/events/past'
-//       getSeo('https://picpalace.com.ua/api/v1/events/past')
-//     }
-//     async function  getSeo(url){
-//       try {
-//         const response = await fetch(url);
-//         const data = await response.json();
-//         data.data.forEach((event) => {
-//             if (event.id === id.value) {
-//                 seoVal = event
-//                 console.log(seoVal.attributes.main_image)
-//                 console.log(seoVal.attributes.title)
-//                 console.log(seoVal.attributes.start_date)
-//                 console.log(seoVal.attributes.location, locale)
-                
-//             }
-//         });
-  
-//       } catch (error) {
-//         console.error('Error fetching past events:', error);
-//       }
-//     }
+async function getSeo(url){
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+    data.data.forEach((event) => {
+        if (event.id === id.value) {
+            seoVal = event
+            console.log(seoVal.attributes.main_image)
+            console.log(seoVal.attributes.title.uk)
+            console.log(seoVal.attributes.start_date)
+           // console.log(seoVal.attributes.location.uk, locale)
+         
+        }
+    });
+  } catch (error) {
+    console.error('Error fetching seo events:', error);
+  }
+}
 
 
 
+//const { data: eventSeo } = await useFetch(getSeo);
+
+
+onMounted(async () => {
+console.log(type.value);
+  if (type.value === 'recent') {
+       //eventUrl = this.config.public.VUE_APP_API +'/api/v1/events/recent'
+ await getSeo('https://picpalace.com.ua/api/v1/events/recent')
+}
+if (type.value === 'past') {
+   //eventUrl = this.config.public.VUE_APP_API +'/api/v1/events/past'
+   await getSeo('https://picpalace.com.ua/api/v1/events/past')
+}
+  //await fetchPost();
+
+   useSeoMeta({
+   title: seoVal.attributes.title.uk,
+   ogTitle: seoVal.attributes.title.uk,
+   description: seoVal.attributes.title.uk,
+   ogDescription: seoVal.attributes.title.uk,
+   ogImage: seoVal.attributes.main_image,
+   twitterCard: 'summary_large_image',
+ })
+  
+});
+
+
+
+
 
   
   
   
-  </script>
+</script>
   
   
-  <script>
+<script>
   
   definePageMeta({
     layout: 'dark',
@@ -200,15 +222,8 @@ export default {
         data.data.forEach((event) => {
             if (event.id === this.$route.query.id) {
               this.event = event
-              console.log( "evennnt",this.event)
-              useSeoMeta({
-                  title: this.event.attributes.title.uk,
-                  ogTitle: this.event.attributes.title.uk,
-                  description: this.event.attributes.location.uk,
-                  ogDescription: this.event.attributes.location.uk,
-                  ogImage: "seoVal.attributes.main_image",
-                  twitterCard: 'summary_large_image',
-                })
+             // console.log( "evennnt",this.event)
+  
             }
         });
       } catch (error) {
