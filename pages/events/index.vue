@@ -119,22 +119,19 @@
 
 
 <script setup>
+const { t, locale } = useI18n();
+
 useSeoMeta({
-  title: 'My Amazing Site2',
-  ogTitle: 'My Amazing Site',
-  description: 'This is my amazing site, let me tell you all about it.',
-  ogDescription: 'This is my amazing site, let me tell you all about it.',
-  ogImage: 'https://assets-global.website-files.com/658aa4775c8768ba42215cd2/660421c94eae48c1878d06d8_2_545202429576716370821.png',
+  title: t('events.title'),
+  ogTitle: t('events.title'),
+  description: t('events.subtitle'),
+  ogDescription: t('events.subtitle'),
+  ogImage: 'https://picpalace.com.ua/Potocki_openGraph.png',
   twitterCard: 'summary_large_image',
 })
-
-
-
 </script>
 
-
 <script>
-
 definePageMeta({
   layout: 'dark',
   
@@ -154,16 +151,12 @@ export default {
     this.getPastEvents();
     
   },
-  // onMounted(){
-  // },
   methods: {
-
     async getRecentEvents(){
       try {
         const response = await fetch(this.config.public.VUE_APP_API + '/api/v1/events/recent');
         const data = await response.json();
         this.eventsRecent = data.data;
-        console.log(this.eventsRecent);
       } catch (error) {
         console.error('Error fetching recent events:', error);
       }
@@ -174,20 +167,15 @@ export default {
         const response = await fetch(this.config.public.VUE_APP_API + '/api/v1/events/past');
         const data = await response.json();
         this.eventsPast = data.data;
-        console.log(this.eventsPast);
       } catch (error) {
         console.error('Error fetching past events:', error);
       }
     },
-
-   
   }
 };
 
 
 </script>
-
-
 
 <style lang='scss'>
 

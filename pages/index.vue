@@ -110,9 +110,7 @@
 </template>
 
 <script setup>
-//import { Carousel } from 'vue3-carousel-nuxt';
 import { useI18n } from 'vue-i18n'
-// const videoSrc = require('~/assets/video/promo.webm')
 
 const { t } = useI18n();
 
@@ -175,7 +173,6 @@ export default {
         const response = await fetch("https://picpalace.com.ua" + '/api/v1/events/recent');
         const data = await response.json();
         this.carouselEvents = data.data;
-        // console.log(this.carouselEvents);
       } catch (error) {
         console.error('Error fetching carousel events:', error);
       }
@@ -186,7 +183,6 @@ export default {
         const response = await fetch('https://picpalace.com.ua' + '/api/v1/services');
         const data = await response.json();
         this.servicesList = data.data;
-        // console.log(this.servicesList);
       } catch (error) {
         console.log('Error fetching  servicesList:', error);
       }

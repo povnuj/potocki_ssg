@@ -107,15 +107,15 @@
   </template>
   
 <script setup>
-import { ref, watchEffect } from 'vue'
-import { useRoute, useFetch } from 'nuxt/app';
+import { ref } from 'vue'
+import { useRoute } from 'nuxt/app';
+
 const config = useRuntimeConfig();
 const { t, locale } = useI18n();
-
 const route = useRoute()
 const eventType = ref(route.query.type).value;
-//const id = ref(route.query.id)
 let event = {};
+
 const eventTypeHandler = () => {
     if (eventType === 'recent') {
        return config.public.VUE_APP_API +'/api/v1/events/recent'
@@ -126,55 +126,45 @@ const eventTypeHandler = () => {
 };
 
 try {
-    const response = await fetch(eventTypeHandler());
-    const data = await response.json();
-    data.data.forEach((event2) => {
-        if (event2.id === route.params.id) {
-            event = event2
-            //this.event = event
-            // console.log(seoVal.attributes.main_image)
-            // console.log(seoVal.attributes.title.uk)
-            // console.log(seoVal.attributes.start_date)
-           // console.log(seoVal.attributes.location.uk, locale)
-        }
-    });
-    
-  } catch (error) {
-    console.error('Error fetching seo events:', error);
-  }
+  const response = await fetch(eventTypeHandler());
+  const data = await response.json();
+  data.data.forEach((e) => {
+      if (e.id === route.params.id) {
+          event = e;
+      }
+  });
+  
+} catch (error) {
+  console.error('Error fetching seo events:', error);
+}
 
 const returnLocale = () => {
-    if (locale.value === 'ua') return {lang:'uk', code: 'uk-UA'}
-    if (locale.value === 'en') return {lang:'en', code: 'en-US'}
-    if (locale.value === 'pl') return {lang:'pl', code: 'pl-PL'}
-    return {lang:'uk', code: 'uk-UA'}
+    if (locale.value === 'ua') return 'uk'
+    return locale.value
 };    
 
+const parsDescription = (str) => {
+  str = str.replace(/<\/?[^>]+(>|$)/g, "");
+  str = str.replace(/&[^;]+;/g, "");
+  return str;
+};
+const seoDescription = parsDescription(event.attributes.content[returnLocale()]);
 
 useSeoMeta({
-   title: event.attributes.title[returnLocale().lang],
-   ogTitle: event.attributes.title[returnLocale().lang],
-   description: event.attributes.location[returnLocale().lang],
-   ogDescription: event.attributes.location[returnLocale().lang],
+   title: event.attributes.title[returnLocale()],
+   ogTitle: event.attributes.title[returnLocale()],
+   description: seoDescription,
+   ogDescription: seoDescription,
    ogImage: event.attributes.main_image,
-   ogType:'article',
-   ogLocale: returnLocale().code,
    twitterCard: 'summary_large_image',
  })
-
-
 </script>
   
   
 <script>
-  
   definePageMeta({
     layout: 'dark',
-    
   });
-
-
-
 </script>
 
 
