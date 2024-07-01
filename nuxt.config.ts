@@ -57,23 +57,23 @@ export default defineNuxtConfig({
     strategy: 'prefix',
     lazy: true,
     customRoutes: 'config', 
-    // pages: {
-    //   index:{
-    //     ua: '/ua', 
-    //     en: '/en', 
-    //     pl: '/pl' 
-    //   },
-    //   events: {
-    //     ua: '/ua/events', 
-    //     en: '/en/events', 
-    //     pl: '/pl/events' 
-    //   },
-    //   'events/:id': {
-    //     ua: '/ua/events/:id', 
-    //     en: '/en/events/:id', 
-    //     pl: '/pl/events/:id' 
-    //   }
-    // },
+    pages: {
+      index:{
+        ua: '/ua', 
+        en: '/en', 
+        pl: '/pl' 
+      },
+      events: {
+        ua: '/ua/events', 
+        en: '/en/events', 
+        pl: '/pl/events' 
+      },
+      'events/:id': {
+        ua: '/ua/events/:id', 
+        en: '/en/events/:id', 
+        pl: '/pl/events/:id' 
+      }
+    },
     
 
     compilation: {
