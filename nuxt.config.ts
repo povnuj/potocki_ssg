@@ -1,8 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
-import { vueI18nConfigs } from "#build/i18n.options.mjs";
-import i18nConfig from "./locales/i18n.config";
-
 export default defineNuxtConfig({
   $development: {
     devtools: { enabled: true },
@@ -12,11 +9,9 @@ export default defineNuxtConfig({
         VUE_APP_API: process.env.VUE_APP_API,
     },
   },
-
   ssr: true,
   pages: true,
   app: {
-   // baseURL: '/',
     pageTransition: { name: 'fade', mode: 'out-in' },
     head: {
       charset: 'utf-8',
@@ -41,9 +36,9 @@ export default defineNuxtConfig({
       ],
     }
   },
- /* routeRules:{
-    '/': { redirect: '/ua' },
-  },*/
+  // routeRules:{
+  //   '/': { redirect: '/ua' },
+  // },
   modules: ["@nuxtjs/i18n", "vue3-carousel-nuxt"],
   components: [
     {
@@ -57,30 +52,10 @@ export default defineNuxtConfig({
     strategy: 'prefix',
     lazy: true,
     customRoutes: 'config', 
-    pages: {
-      index:{
-        ua: '/ua', 
-        en: '/en', 
-        pl: '/pl' 
-      },
-      events: {
-        ua: '/ua/events', 
-        en: '/en/events', 
-        pl: '/pl/events' 
-      },
-      'events/:id': {
-        ua: '/ua/events/:id', 
-        en: '/en/events/:id', 
-        pl: '/pl/events/:id' 
-      }
-    },
-    
-
     compilation: {
       strictMessage: false,
     },
     defaultLocale: 'ua',
-    //vueI18n: 'i18n.config',
     langDir: './locales',
     locales: [
       {
@@ -100,6 +75,4 @@ export default defineNuxtConfig({
       }
     ]
   },
-
-  
 });
