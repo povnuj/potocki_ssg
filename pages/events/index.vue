@@ -14,8 +14,7 @@
 
     <section class="events-section">
 
-      <div v-if="eventsRecent?.length > 0"
-          class="events-section-title section-title">
+      <div v-if="eventsRecent?.length > 0" class="events-section-title section-title">
         {{ $t('events.future') }}
       </div>
 
@@ -26,39 +25,55 @@
           </div>
           <div class="item__date">
             <span v-if="event.attributes.start_date === event.attributes.end_date">
-              {{ $i18n.locale === 'pl' ? new Date(event.attributes.start_date).toLocaleDateString('pl-PL', {day:'numeric', month:'long'}) :
-                $i18n.locale === 'en' ? new Date(event.attributes.start_date).toLocaleDateString('en-GB', {day:'numeric', month:'long'}) :
-                    new Date(event.attributes.start_date).toLocaleDateString('uk-UA', {day:'numeric', month:'long'}) }}
+              {{ $i18n.locale === 'pl' ? new Date(event.attributes.start_date).toLocaleDateString('pl-PL',
+            { day: 'numeric', month: 'long' }) :
+            $i18n.locale === 'en' ? new Date(event.attributes.start_date).toLocaleDateString('en-GB', {
+              day: 'numeric',
+              month: 'long'
+            }) :
+              new Date(event.attributes.start_date).toLocaleDateString('uk-UA', { day: 'numeric', month: 'long' }) }}
             </span>
             <span v-else>
-              <span v-if="new Date(event.attributes.start_date).getMonth() === new Date(event.attributes.end_date).getMonth()">
-                {{ $i18n.locale === 'pl' ? new Date(event.attributes.start_date).toLocaleDateString('pl-PL', {day:'numeric'}) :
-                  $i18n.locale === 'en' ? new Date(event.attributes.start_date).toLocaleDateString('en-GB', {day:'numeric'})  :
-                      new Date(event.attributes.start_date).toLocaleDateString('uk-UA', {day:'numeric'}) }} -
-                {{ $i18n.locale === 'pl' ? new Date(event.attributes.end_date).toLocaleDateString('pl-PL', {day:'numeric', month:'long'}) :
-                  $i18n.locale === 'en' ? new Date(event.attributes.end_date).toLocaleDateString('en-GB', {day:'numeric', month:'long'})  :
-                      new Date(event.attributes.end_date).toLocaleDateString('uk-UA', {day:'numeric', month:'long'}) }}
+              <span
+                v-if="new Date(event.attributes.start_date).getMonth() === new Date(event.attributes.end_date).getMonth()">
+                {{ $i18n.locale === 'pl' ? new Date(event.attributes.start_date).toLocaleDateString('pl-PL',
+            { day: 'numeric' }) :
+            $i18n.locale === 'en' ? new Date(event.attributes.start_date).toLocaleDateString('en-GB',
+              { day: 'numeric' }) :
+              new Date(event.attributes.start_date).toLocaleDateString('uk-UA', { day: 'numeric' }) }} -
+                {{ $i18n.locale === 'pl' ? new Date(event.attributes.end_date).toLocaleDateString('pl-PL',
+            { day: 'numeric', month: 'long' }) :
+            $i18n.locale === 'en' ? new Date(event.attributes.end_date).toLocaleDateString('en-GB', {
+              day: 'numeric',
+              month: 'long'
+            }) :
+              new Date(event.attributes.end_date).toLocaleDateString('uk-UA', { day: 'numeric', month: 'long' }) }}
               </span>
               <span v-else>
-                {{ $i18n.locale === 'pl' ? new Date(event.attributes.start_date).toLocaleDateString('pl-PL', {day:'numeric', month:'long'}) :
-                  $i18n.locale === 'en' ? new Date(event.attributes.start_date).toLocaleDateString('en-GB', {day:'numeric', month:'long'})  :
-                      new Date(event.attributes.start_date).toLocaleDateString('uk-UA', {day:'numeric', month:'long'}) }} -
-                {{ $i18n.locale === 'pl' ? new Date(event.attributes.end_date).toLocaleDateString('pl-PL', {day:'numeric', month:'long'}) :
-                  $i18n.locale === 'en' ? new Date(event.attributes.end_date).toLocaleDateString('en-GB', {day:'numeric', month:'long'})  :
-                      new Date(event.attributes.end_date).toLocaleDateString('uk-UA', {day:'numeric', month:'long'}) }}
+                {{ $i18n.locale === 'pl' ? new Date(event.attributes.start_date).toLocaleDateString('pl-PL',
+            { day: 'numeric', month: 'long' }) :
+            $i18n.locale === 'en' ? new Date(event.attributes.start_date).toLocaleDateString('en-GB',
+              { day: 'numeric', month: 'long' }) :
+              new Date(event.attributes.start_date).toLocaleDateString('uk-UA', { day: 'numeric', month: 'long' }) }} -
+                {{ $i18n.locale === 'pl' ? new Date(event.attributes.end_date).toLocaleDateString('pl-PL',
+            { day: 'numeric', month: 'long' }) :
+            $i18n.locale === 'en' ? new Date(event.attributes.end_date).toLocaleDateString('en-GB', {
+              day: 'numeric',
+              month: 'long'
+            }) :
+              new Date(event.attributes.end_date).toLocaleDateString('uk-UA', { day: 'numeric', month: 'long' }) }}
               </span>
             </span>
           </div>
           <div class="item__footer">
             <div class="title subpage-title">
               {{ $i18n.locale === 'pl' ? event.attributes.title.pl :
-                $i18n.locale === 'en' ? event.attributes.title.en :
-                    event.attributes.title.uk }}
+            $i18n.locale === 'en' ? event.attributes.title.en :
+              event.attributes.title.uk }}
             </div>
-            <NuxtLinkLocale :to="{path: 'events'+'/' + event.id, query:{type: 'recent'}}" class="btn-details"> 
-              {{ $t('events.details') }}
-              <span class="btn-details__icon"></span>
-            </NuxtLinkLocale>
+            <NuxtLink :to="{ path: localePath('events') + '/' + event.id, query: { type: 'recent' } }">
+              <ButtonDetail>{{ $t('events.details') }}</ButtonDetail>
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -74,39 +89,55 @@
           </div>
           <div class="item__date">
             <span v-if="event.attributes.start_date === event.attributes.end_date">
-              {{ $i18n.locale === 'pl' ? new Date(event.attributes.start_date).toLocaleDateString('pl-PL', {day:'numeric', month:'long'}) :
-                $i18n.locale === 'en' ? new Date(event.attributes.start_date).toLocaleDateString('en-GB', {day:'numeric', month:'long'}) :
-                    new Date(event.attributes.start_date).toLocaleDateString('uk-UA', {day:'numeric', month:'long'}) }}
+              {{ $i18n.locale === 'pl' ? new Date(event.attributes.start_date).toLocaleDateString('pl-PL',
+            { day: 'numeric', month: 'long' }) :
+            $i18n.locale === 'en' ? new Date(event.attributes.start_date).toLocaleDateString('en-GB', {
+              day: 'numeric',
+              month: 'long'
+            }) :
+              new Date(event.attributes.start_date).toLocaleDateString('uk-UA', { day: 'numeric', month: 'long' }) }}
             </span>
             <span v-else>
-              <span v-if="new Date(event.attributes.start_date).getMonth() === new Date(event.attributes.end_date).getMonth()">
-                {{ $i18n.locale === 'pl' ? new Date(event.attributes.start_date).toLocaleDateString('pl-PL', {day:'numeric'}) :
-                  $i18n.locale === 'en' ? new Date(event.attributes.start_date).toLocaleDateString('en-GB', {day:'numeric'})  :
-                      new Date(event.attributes.start_date).toLocaleDateString('uk-UA', {day:'numeric'}) }} -
-                {{ $i18n.locale === 'pl' ? new Date(event.attributes.end_date).toLocaleDateString('pl-PL', {day:'numeric', month:'long'}) :
-                  $i18n.locale === 'en' ? new Date(event.attributes.end_date).toLocaleDateString('en-GB', {day:'numeric', month:'long'})  :
-                      new Date(event.attributes.end_date).toLocaleDateString('uk-UA', {day:'numeric', month:'long'}) }}
+              <span
+                v-if="new Date(event.attributes.start_date).getMonth() === new Date(event.attributes.end_date).getMonth()">
+                {{ $i18n.locale === 'pl' ? new Date(event.attributes.start_date).toLocaleDateString('pl-PL',
+            { day: 'numeric' }) :
+            $i18n.locale === 'en' ? new Date(event.attributes.start_date).toLocaleDateString('en-GB',
+              { day: 'numeric' }) :
+              new Date(event.attributes.start_date).toLocaleDateString('uk-UA', { day: 'numeric' }) }} -
+                {{ $i18n.locale === 'pl' ? new Date(event.attributes.end_date).toLocaleDateString('pl-PL',
+            { day: 'numeric', month: 'long' }) :
+            $i18n.locale === 'en' ? new Date(event.attributes.end_date).toLocaleDateString('en-GB', {
+              day: 'numeric',
+              month: 'long'
+            }) :
+              new Date(event.attributes.end_date).toLocaleDateString('uk-UA', { day: 'numeric', month: 'long' }) }}
               </span>
               <span v-else>
-                {{ $i18n.locale === 'pl' ? new Date(event.attributes.start_date).toLocaleDateString('pl-PL', {day:'numeric', month:'long'}) :
-                  $i18n.locale === 'en' ? new Date(event.attributes.start_date).toLocaleDateString('en-GB', {day:'numeric', month:'long'})  :
-                      new Date(event.attributes.start_date).toLocaleDateString('uk-UA', {day:'numeric', month:'long'}) }} -
-                {{ $i18n.locale === 'pl' ? new Date(event.attributes.end_date).toLocaleDateString('pl-PL', {day:'numeric', month:'long'}) :
-                  $i18n.locale === 'en' ? new Date(event.attributes.end_date).toLocaleDateString('en-GB', {day:'numeric', month:'long'})  :
-                      new Date(event.attributes.end_date).toLocaleDateString('uk-UA', {day:'numeric', month:'long'}) }}
+                {{ $i18n.locale === 'pl' ? new Date(event.attributes.start_date).toLocaleDateString('pl-PL',
+            { day: 'numeric', month: 'long' }) :
+            $i18n.locale === 'en' ? new Date(event.attributes.start_date).toLocaleDateString('en-GB',
+              { day: 'numeric', month: 'long' }) :
+              new Date(event.attributes.start_date).toLocaleDateString('uk-UA', { day: 'numeric', month: 'long' }) }} -
+                {{ $i18n.locale === 'pl' ? new Date(event.attributes.end_date).toLocaleDateString('pl-PL',
+            { day: 'numeric', month: 'long' }) :
+            $i18n.locale === 'en' ? new Date(event.attributes.end_date).toLocaleDateString('en-GB', {
+              day: 'numeric',
+              month: 'long'
+            }) :
+              new Date(event.attributes.end_date).toLocaleDateString('uk-UA', { day: 'numeric', month: 'long' }) }}
               </span>
             </span>
           </div>
           <div class="item__footer">
             <div class="title subpage-title">
               {{ $i18n.locale === 'pl' ? event.attributes.title.pl :
-                $i18n.locale === 'en' ? event.attributes.title.en :
-                    event.attributes.title.uk }}
+            $i18n.locale === 'en' ? event.attributes.title.en :
+              event.attributes.title.uk }}
             </div>
-            <router-link :to="{path: '/event', query:{type: 'past', id: event.id}}" class="btn-details">
-              {{ $t('events.details') }}
-              <span class="btn-details__icon"></span>
-            </router-link>
+            <NuxtLink :to="{path: localePath('events') +'/' + event.id, query:{type: 'past'}}">
+              <ButtonDetail>{{ $t('events.details') }}</ButtonDetail>
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -120,23 +151,23 @@
 
 <script setup>
 const { t, locale } = useI18n();
+const localePath = useLocalePath();
 
 useSeoMeta({
-  title: t('events.title'),
-  ogTitle: t('events.title'),
-  description: t('events.subtitle'),
-  ogDescription: t('events.subtitle'),
+  title: t('meta.palace.events.title'),
+  ogTitle: t('meta.palace.events.title'),
+  description: t('meta.palace.events.description'),
+  ogDescription: t('meta.palace.events.description'),
   ogImage: 'https://picpalace.com.ua/Potocki_openGraph.png',
   twitterCard: 'summary_large_image',
-})
+});
+
+definePageMeta({
+  layout: 'palace',
+});
 </script>
 
 <script>
-definePageMeta({
-  layout: 'dark',
-  
-})
-
 export default {
   data() {
     return {
@@ -145,14 +176,14 @@ export default {
       eventsPast: [],
     }
   },
-  
+
   beforeMount() {
     this.getRecentEvents();
     this.getPastEvents();
-    
+
   },
   methods: {
-    async getRecentEvents(){
+    async getRecentEvents() {
       try {
         const response = await fetch(this.config.public.VUE_APP_API + '/api/v1/events/recent');
         const data = await response.json();
@@ -162,7 +193,7 @@ export default {
       }
     },
 
-    async  getPastEvents(){
+    async getPastEvents() {
       try {
         const response = await fetch(this.config.public.VUE_APP_API + '/api/v1/events/past');
         const data = await response.json();
@@ -177,8 +208,7 @@ export default {
 
 </script>
 
-<style lang='scss'>
-
+<style lang='scss' scoped>
 .events-page {
   .page-header {
     .item-l {
@@ -194,7 +224,7 @@ export default {
       width: 45%;
       max-width: 570px;
       height: 228px;
-      background-image: url("@/assets/images/events-header.svg");
+      background-image: url("@/public/images/events-header.svg");
     }
   }
 }
@@ -220,7 +250,7 @@ export default {
     }
 
     .no-image {
-      background-image: url("@/assets/images/event-no-foto.png");
+      background-image: url("@/public/images/event-no-foto.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -244,35 +274,35 @@ export default {
         padding: 0;
       }
 
-      .btn-details {
-        display: flex;
-        align-items: center;
-        position: absolute;
-        right: 0;
-        top: 0;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 30px;
-        color: #123F69!important;
-        transition: all .3s ease-in-out;
+      // .btn-details {
+      //   display: flex;
+      //   align-items: center;
+      //   position: absolute;
+      //   right: 0;
+      //   top: 0;
+      //   font-weight: 700;
+      //   font-size: 18px;
+      //   line-height: 30px;
+      //   color: #123F69!important;
+      //   transition: all .3s ease-in-out;
 
-        &:hover {
-          .btn-details__icon {
-            margin-left: 15px;
-            transition: all .3s ease-in-out;
-          }
-        }
+      //   &:hover {
+      //     .btn-details__icon {
+      //       margin-left: 15px;
+      //       transition: all .3s ease-in-out;
+      //     }
+      //   }
 
-        &__icon {
-          margin-left: 10px;
-          display: inline-block;
-          width: 26px;
-          height: 22px;
-          background-image: url("@/assets/images/icons/arrow-blue.svg");
-          background-repeat: no-repeat;
-          transition: all .3s ease-in-out;
-        }
-      }
+      //   &__icon {
+      //     margin-left: 10px;
+      //     display: inline-block;
+      //     width: 26px;
+      //     height: 22px;
+      //     background-image: url("@/public/images/icons/arrow-blue.svg");
+      //     background-repeat: no-repeat;
+      //     transition: all .3s ease-in-out;
+      //   }
+      // }
 
     }
   }
@@ -353,11 +383,13 @@ export default {
         line-height: 24px;
         font-weight: 400;
       }
+
       .item__img {
         order: 2;
         height: 182px;
         margin-bottom: 45px;
       }
+
       .item__footer {
         position: static;
         padding-right: 0;
@@ -376,5 +408,4 @@ export default {
     }
   }
 }
-
 </style>

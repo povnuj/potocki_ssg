@@ -317,97 +317,97 @@
     "jury":{
       "title":"ЖЮРІ",
       "scheme": {
-        "img": "vs_EN.webp",
+        "img": "/_nuxt/public/images/jury/map/vs_EN.webp",
         "title":[
           "282 учасники з 54 країн зареєструвалися на конкурс.",
           "44 проекти з 14 країн було подано"
         ]
       },
       "map":{ 
-        "img": "map_uk.jpg",
+        "img": "/_nuxt/public/images/jury/map/map_uk.jpg",
         "title":"Географія зареєстрованих команд та поданих проєктів"
       },
       "members": [
         {
-          "img": "aleksander-janicki.jpg", 
+          "img": "/_nuxt/public/images/jury/aleksander-janicki.jpg", 
           "name": "Олександр Яніцкі", 
           "inf": "архітектор, художник",
           "location": "Польща, Краків"
         },
         {
-          "img": "Scislo-prawo.jpg", 
+          "img": "/_nuxt/public/images/jury/Scislo-prawo.jpg", 
           "name": "Маріуш Счісло", 
           "inf": "віце-президент польської асоціації архітекторів, керівник FSP ARCUS",
           "location": "Польща, Варшава"
         },
         {
-          "img": "Kyle-Gallaher.jpg", 
+          "img": "/_nuxt/public/images/jury/Kyle-Gallaher.jpg", 
           "name": "Кайл Галлахер", 
           "inf": "ландшафтний архітектор, керівник SKG Landscape Design",
           "location": "Ірландія"
         },
         {
-          "img": "Chyzhevskii.jpg", 
+          "img": "/_nuxt/public/images/jury/Chyzhevskii.jpg", 
           "name": "Олександр Чижевський", 
           "inf": "президент Національної спілки архітекторів України",
           "location": "Україна, Київ"
         },
         {
-          "img": "ck-bevz-t.jpg", 
+          "img": "/_nuxt/public/images/jury/ck-bevz-t.jpg", 
           "name": "Микола Бевз", 
           "inf": "доктор архітектури, професор, завідувач кафедри архітектури та реставрації НУ \"Львівська політехніка\", член ІКОМОС",
           "location": "Україна, Львів"
         },
         {
-          "img": "Czubiński.jpg", 
+          "img": "/_nuxt/public/images/jury/Czubiński.jpg", 
           "name": "Яцек Чубінскі", 
           "inf": "доктор. інж. арх., Інститут історії архітектури і консервації пам'яток, Політехніки Краківської ім. Тадеуша Костюшки",
           "location": "Польща, Краків"
         },
         {
-          "img": "Spytska.jpg", 
+          "img": "/_nuxt/public/images/jury/Spytska.jpg", 
           "name": "Дарія Спитска", 
           "inf": "архітектор у компанії Wilmotte&A",
           "location": "Франція, Париж"
         },
         {
-          "img": "Mysak.jpg", 
+          "img": "/_nuxt/public/images/jury/Mysak.jpg", 
           "name": "Наталя Мисак", 
           "inf": "архітекторка і дослідниця, кандидатка наук з історії та теорії архітектури, Лабораторія просторових практик",
           "location": "Україна, Львів"
         },
         {
-          "img": "Oksana-Savchuk-by-Fotografer-Roza-Schous.jpg", 
+          "img": "/_nuxt/public/images/jury/Oksana-Savchuk-by-Fotografer-Roza-Schous.jpg", 
           "name": "Оксана Савчук", 
           "inf": "архітектор, дослідниця, координаторка Українського дому та співзасновниця фонду VATAHA",
           "location": "Нідерланди, Роттердам"
         },
         {
-          "img": "Prokipchuk.jpg", 
+          "img": "/_nuxt/public/images/jury/Prokipchuk.jpg", 
           "name": "Артур Прокіпчук", 
           "inf": "заступник директора Департаменту архітектури, містобудування та культурної спадщини Івано-Франківської міської ради",
           "location": "Україна, Івано-Франківськ"
         },
         {
-          "img": "Bogdan Hoj_cb.jpg", 
+          "img": "/_nuxt/public/images/jury/Bogdan Hoj_cb.jpg", 
           "name": "Богдан Гой", 
           "inf": "кандидат архітектури, доцент кафедри дизайну архітектурного середовища НУ «Львівська політехніка», головний архітектор проектів в архітектурному бюро ТзОВ «А7 ХАБ»",
           "location": "Україна, Львів"
         },
         {
-          "img": "Gajdar.jpg", 
+          "img": "/_nuxt/public/images/jury/Gajdar.jpg", 
           "name": "Володимир Гайдар", 
           "inf": "директор КП ПІК ПАЛАЦ, голова Івано-Франківської обласної організації НСАУ, член ІКОМОС",
           "location": "Україна, Івано-Франківськ"
         },
         {
-          "img": "lARYSA-POLISHCHUK-2.jpg", 
+          "img": "/_nuxt/public/images/jury/lARYSA-POLISHCHUK-2.jpg", 
           "name": "Лариса Поліщук", 
           "inf": "кандидат архітектури, доцент, завідувач науково-дослідного відділу КП ПІК ПАЛАЦ",
           "location": "Україна, Івано-Франківськ"
         },
         {
-          "img": "Duplantier.jpeg", 
+          "img": "/_nuxt/public/images/jury/Duplantier.jpeg", 
           "name": "Мартін Дюплантьє", 
           "inf": "генеральний директор – архітектор та урбаніст у Martin Duplantier Architectes; президент AMO FOUNDATION",
           "location": "Франція, Париж"

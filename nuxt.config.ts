@@ -13,25 +13,37 @@ export default defineNuxtConfig({
     },
   },
 
-  // alias:{
-  //   // "~": "/",
-  //   // "@": "~/",
-  //   "~~": "/<rootDir>",
-  //   "@@": "/<rootDir>",
-  //   "@assets": "./assets",
-  //   "public": "/<srcDir>/public"
-  // },
   ssr: true,
   pages: true,
   app: {
-    //baseURL: ,
+   // baseURL: '/',
+    pageTransition: { name: 'fade', mode: 'out-in' },
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       title: '',
-      
+      link: [
+        {
+          rel: 'stylesheet',
+          href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css'
+        }
+      ],
+      script: [
+        {
+          src: 'https://kit.fontawesome.com/cdfc9e48fb.js',
+          crossorigin: 'anonymous'
+        },
+        {
+          src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js',
+          type: 'text/javascript',
+          crossorigin: 'anonymous'
+        },
+      ],
     }
   },
+ /* routeRules:{
+    '/': { redirect: '/ua' },
+  },*/
   modules: ["@nuxtjs/i18n", "vue3-carousel-nuxt"],
   components: [
     {
@@ -44,19 +56,24 @@ export default defineNuxtConfig({
   i18n: {
     strategy: 'prefix',
     lazy: true,
-    customRoutes: 'config', // disable custom route with page components
-    pages: {
-      events: {
-        ua: '/ua/events', // -> accessible at /about-us (no prefix since it's the default locale)
-        en: '/en/events', // -> accessible at /fr/a-propos
-        pl: '/pl/events' // -> accessible at /es/sobre
-      },
-      event: {
-        ua: '/ua/event', // -> accessible at /about-us (no prefix since it's the default locale)
-        en: '/en/event', // -> accessible at /fr/a-propos
-        pl: '/pl/event' // -> accessible at /es/sobre
-      }
-    },
+    customRoutes: 'config', 
+    // pages: {
+    //   index:{
+    //     ua: '/ua', 
+    //     en: '/en', 
+    //     pl: '/pl' 
+    //   },
+    //   events: {
+    //     ua: '/ua/events', 
+    //     en: '/en/events', 
+    //     pl: '/pl/events' 
+    //   },
+    //   'events/:id': {
+    //     ua: '/ua/events/:id', 
+    //     en: '/en/events/:id', 
+    //     pl: '/pl/events/:id' 
+    //   }
+    // },
     
 
     compilation: {

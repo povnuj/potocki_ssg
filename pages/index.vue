@@ -3,9 +3,9 @@
     <div class="first-screen flex" id="first-section-scroll">
       <div class="content-wrap">
         <div class="first-screen-img">
-          <video  loop muted autoplay poster="@/public/images/main-page-bg.png">
-            <source src='@/public/images/video/promo.webm' type="video/webm" /> 
-            <source src="@/public/images/video/promo.mp4" type="video/mp4" /> 
+          <video loop muted autoplay poster="@/public/images/main-page-bg.png">
+            <source src='@/public/images/video/promo.webm' type="video/webm" />
+            <source src="@/public/images/video/promo.mp4" type="video/mp4" />
           </video>
           <div class="first-screen-img__item first-screen-img__item-left"></div>
           <div class="first-screen-img__item first-screen-img__item-right"></div>
@@ -14,7 +14,7 @@
           <div class="first-screen-content__title" id="homePageTitle">
             {{ $t('home.title') }}
           </div>
-          <NuxtLink to="#restoration-id" class="first-screen-content__arrow" ></NuxtLink>
+          <NuxtLink to="#restoration-id" class="first-screen-content__arrow"></NuxtLink>
           <div class="first-screen-content__subtitle">
             {{ $t('home.subtitle') }}
           </div>
@@ -34,22 +34,20 @@
             <div class="section-text">
               {{ $t('home.restSubtitle') }}
             </div>
-            <NuxtLink to='/restoration' class="hide-mobile">
-              <ButtonWithArrow>{{$t('home.restBtn')}}</ButtonWithArrow>
-            </NuxtLink>
-            <a href="https://drive.google.com/file/d/1IC0AbsBj-RkH9PcpYe4PoMAV934hTAYk/view"
-               target="_blank"
-               class="hide-mobile btn-vue btn-vue__link">
-              {{ $t('home.restBtnConcept') }}
+            <NuxtLinkLocale to='restoration' class="hide-mobile">
+              <ButtonWithArrow>{{ $t('home.restBtn') }}</ButtonWithArrow>
+            </NuxtLinkLocale>
+
+            <a href="https://drive.google.com/file/d/1IC0AbsBj-RkH9PcpYe4PoMAV934hTAYk/view" target="_blank">
+              <ButtonWithArrowWhite>{{ $t('home.restBtnConcept') }}</ButtonWithArrowWhite>
             </a>
           </div>
-          <NuxtLink to='/restoration' class="show-mobile">
-            <ButtonWithArrow>{{$t('home.restBtn')}}</ButtonWithArrow>
-          </NuxtLink>
-          <a href="https://drive.google.com/file/d/1IC0AbsBj-RkH9PcpYe4PoMAV934hTAYk/view"
-             target="_blank"
-             class="show-mobile btn-vue btn-vue__link">
-            {{ $t('home.restBtnConcept') }}
+          <NuxtLinkLocale to='restoration' class="show-mobile">
+            <ButtonWithArrow>{{ $t('home.restBtn') }}</ButtonWithArrow>
+          </NuxtLinkLocale>
+          <a href="https://drive.google.com/file/d/1IC0AbsBj-RkH9PcpYe4PoMAV934hTAYk/view" target="_blank"
+            class="show-mobile">
+            <ButtonWithArrowWhite>{{ $t('home.restBtnConcept') }}</ButtonWithArrowWhite>
           </a>
         </div>
       </div>
@@ -62,22 +60,22 @@
         <div class="row-vue">
           <div class="section-text">
             {{ $t('home.eventsSubtitle') }}
-            <NuxtLink to='/events' class="hide-mobile">
+            <NuxtLinkLocale to='events' class="hide-mobile">
               <ButtonWithArrow>{{ $t('home.eventsBtn') }}</ButtonWithArrow>
-            </NuxtLink>
+            </NuxtLinkLocale>
           </div>
-            <Carousel :settings="settings" :breakpoints="breakpoints" v-if="carouselEvents.length > 0">
-              <Slide v-for="slide in carouselEvents" :key="slide">
-                <img v-bind:src='slide.attributes.main_image' alt="" class="carousel-img">
-              </Slide>
+          <Carousel :settings="settings" :breakpoints="breakpoints" v-if="carouselEvents.length > 0">
+            <Slide v-for="slide in carouselEvents" :key="slide">
+              <img v-bind:src='slide.attributes.main_image' alt="" class="carousel-img">
+            </Slide>
 
-              <template #addons>
-                <Navigation />
-              </template>
-            </Carousel>
-          <NuxtLink to='/events' class="show-mobile">
+            <template #addons>
+              <Navigation />
+            </template>
+          </Carousel>
+          <NuxtLinkLocale to='events' class="show-mobile">
             <ButtonWithArrow>{{ $t('home.eventsBtn') }}</ButtonWithArrow>
-          </NuxtLink>
+          </NuxtLinkLocale>
         </div>
       </div>
     </section>
@@ -89,28 +87,30 @@
         </div>
 
         <div class="row-vue flex-wrap section-services-row">
-          <div class="section-services-row__item"
-               v-for="(service, index) in servicesList"
-               v-bind:key="index"
-          >
+          <div class="section-services-row__item" v-for="(service, index) in servicesList" v-bind:key="index">
             <div class="item-icon">
               <img v-bind:src='service.attributes.icon' alt="">
             </div>
             <div class="item-text">
-              {{ $i18n.locale === 'pl' ? service.attributes.title.pl : $i18n.locale === 'en' ? service.attributes.title.en : service.attributes.title.uk }}
+              {{ $i18n.locale === 'pl' ? service.attributes.title.pl : $i18n.locale === 'en' ?
+              service.attributes.title.en :
+              service.attributes.title.uk }}
             </div>
           </div>
         </div>
-        <NuxtLink to='/services' class="">
+        <NuxtLinkLocale to='services' class="">
           <ButtonWithArrow>{{ $t('home.servicesBtn') }}</ButtonWithArrow>
-        </NuxtLink>
+        </NuxtLinkLocale>
       </div>
     </section>
- </div>
+  </div>
 </template>
 
 <script setup>
 import { useI18n } from 'vue-i18n'
+//import { useRoute } from 'nuxt/app';
+
+//const route = useRoute()
 
 const { t } = useI18n();
 
@@ -121,17 +121,18 @@ useSeoMeta({
   ogDescription: t('meta.palace.home.description'),
   ogImage: 'https://picpalace.com.ua/Potocki_openGraph.png',
   twitterCard: 'summary_large_image',
-})
+});
 
+//console.log(route);
+definePageMeta({
+  layout: 'palace',
+///  middleware: 'redirect-root-locale',
+
+});
 </script>
 
 <script>
 import 'vue3-carousel/dist/carousel.css'
-
-definePageMeta({
-  layout: 'dark',
-  
-})
 export default {
   data() {
     return {
@@ -154,23 +155,21 @@ export default {
       },
     }
   },
-  components:{
 
-  },
   beforeMount() {
-   
+
     this.getCarouselEvents();
     this.getServicesList();
-    
+
   },
-  onMounted(){
+  onMounted() {
     this.changeTitle();
   },
   methods: {
 
-    async getCarouselEvents(){
+    async getCarouselEvents() {
       try {
-        const response = await fetch("https://picpalace.com.ua" + '/api/v1/events/recent');
+        const response = await fetch(this.config.public.VUE_APP_API + '/api/v1/events/recent');
         const data = await response.json();
         this.carouselEvents = data.data;
       } catch (error) {
@@ -178,9 +177,9 @@ export default {
       }
     },
 
-    async getServicesList(){
+    async getServicesList() {
       try {
-        const response = await fetch('https://picpalace.com.ua' + '/api/v1/services');
+        const response = await fetch(this.config.public.VUE_APP_API + '/api/v1/services');
         const data = await response.json();
         this.servicesList = data.data;
       } catch (error) {
@@ -188,7 +187,7 @@ export default {
       }
     },
 
-    changeTitle(){
+    changeTitle() {
       if (localStorage.getItem('lang') === 'pl' &&
         document.getElementById('homePageTitle')) {
         document.getElementById('homePageTitle').classList.add('first-screen-content__title_pol')
@@ -196,11 +195,8 @@ export default {
         document.getElementById('homePageTitle').classList.remove('first-screen-content__title_pol')
       }
     },
-
   }
 };
-
-
 </script>
 
 
@@ -249,6 +245,7 @@ export default {
         height: 144px;
         background-image: url("@/public/images/main-page-bg-1.svg");
       }
+
       &-right {
         top: 0;
         right: 0;
@@ -260,7 +257,7 @@ export default {
   }
 
   &-content {
-    color:#fff;
+    color: #fff;
 
     &__title {
       width: 41%;
@@ -417,10 +414,18 @@ section.carousel {
   .text-item {
     width: 30%;
 
-    .btn-vue {
+    .btn-vue,
+    .btn-white {
       margin-top: 42px;
     }
   }
+
+  .btn-white {
+    @media (max-width: 992px) {
+      max-width: 301px;
+    }
+  }
+
   .btn-vue__link {
     width: 100%;
     max-width: 334px;
@@ -431,9 +436,12 @@ section.carousel {
     color: #32404E;
     background-color: transparent;
     border: 1px solid #32404E;
+
     &:after {
-      background-image: url("@/public/images/dark-arrow.svg");;
+      background-image: url("@/public/images/dark-arrow.svg");
+      ;
     }
+
     @media (max-width: 992px) {
       max-width: 301px;
     }
@@ -466,24 +474,31 @@ section.carousel {
         &-1 {
           background-image: url("@/public/images/icons/services/1.png");
         }
+
         &-2 {
           background-image: url("@/public/images/icons/services/2.png");
         }
+
         &-3 {
           background-image: url("@/public/images/icons/services/3.png");
         }
+
         &-4 {
           background-image: url("@/public/images/icons/services/4.png");
         }
+
         &-5 {
           background-image: url("@/public/images/icons/services/5.png");
         }
+
         &-6 {
           background-image: url("@/public/images/icons/services/6.png");
         }
+
         &-7 {
           background-image: url("@/public/images/icons/services/7.png");
         }
+
         &-8 {
           background-image: url("@/public/images/icons/services/8.png");
         }
@@ -527,6 +542,7 @@ section.carousel {
         height: 60px;
         background-size: contain;
       }
+
       .first-screen-img__item-right {
         height: 120px;
         width: 180px;
@@ -541,12 +557,14 @@ section.carousel {
           font-size: 32px;
           line-height: 44px;
         }
+
         &__subtitle {
           padding-top: 15px;
           width: 100%;
           font-size: 14px;
           line-height: 24px;
         }
+
         &__arrow {
           bottom: 30px;
         }
@@ -579,9 +597,11 @@ section.carousel {
           .carousel__next {
             top: -48px;
           }
+
           .carousel__prev {
             left: calc(50% - 45px);
           }
+
           .carousel__next {
             left: calc(50%);
           }
@@ -678,6 +698,4 @@ section.carousel {
     }
   }
 }
-
 </style>
-

@@ -82,6 +82,7 @@
     "restBtn": "Interaktywny schemat renowacji",
     "restBtnConcept": "Koncepcja rewitalizacji",
     "servicesTitle": "usługi udzielane przez pałac",
+    "servicesTitleMobile": "usługi udzielane przez pałac",
     "servicesBtn": "Więcej o usługach"
   },
   "restoration": {
@@ -314,97 +315,97 @@
   "jury":{
     "title":"Jurie",
     "scheme": {
-      "img": "vs_PL.webp",
+      "img": "/_nuxt/public/images/jury/map/vs_PL.webp",
       "title":[
         "282 participants from 54 countries have registered for the competition.",
         "44 projects from 14 countries have been submitted."
       ]
     },
     "map":{ 
-      "img": "map_en.jpg",
+      "img": "/_nuxt/public/images/jury/map/map_en.jpg",
       "title":"Geography of Registered Teams and Submitted Projects"
     },
     "members": [
       {
-        "img": "aleksander-janicki.jpg", 
+        "img": "/_nuxt/public/images/jury/aleksander-janicki.jpg", 
         "name": "Aleksander Janicki", 
         "inf": "architect, visual artist",
         "location": "Poland, Кrakow"
       },
       {
-        "img": "Scislo-prawo.jpg", 
+        "img": "/_nuxt/public/images/jury/Scislo-prawo.jpg", 
         "name": "Mariusz Scislo", 
         "inf": "former president of the Union of Architects of Poland (2012-2019), architect, head of the FSP Arcus",
         "location": "Poland, Warsaw"
       },
       {
-        "img": "Kyle-Gallaher.jpg", 
+        "img": "/_nuxt/public/images/jury/Kyle-Gallaher.jpg", 
         "name": "Kyle Gallaher", 
         "inf": "landscape architect, Principal SKG Landscape Design",
         "location": "Ireland"
       },
       {
-        "img": "Chyzhevskii.jpg", 
+        "img": "/_nuxt/public/images/jury/Chyzhevskii.jpg", 
         "name": "Oleksandr Chyzhevskii", 
         "inf": "the president of the National Union of Architects of Ukraine",
         "location": "Ukraine, Kyiv"
       },
       {
-        "img": "ck-bevz-t.jpg", 
+        "img": "/_nuxt/public/images/jury/ck-bevz-t.jpg", 
         "name": "Mykola Bevz", 
         "inf": "prof., Sc.D., head of Architecture and Conservation Department at Lviv Polytechnic National University, member of ICOMOS",
         "location": "Ukraine, Lviv"
       },
       {
-        "img": "Czubiński.jpg", 
+        "img": "/_nuxt/public/images/jury/Czubiński.jpg", 
         "name": "Jacek Czubiński", 
         "inf": "architect, Dr. Eng. arch., Institute of History of Architecture and Monument Conservation, Faculty of Architecture, Cracow University of Technology",
         "location": "Poland, Кrakow"
       },
       {
-        "img": "Spytska.jpg", 
+        "img": "/_nuxt/public/images/jury/Spytska.jpg", 
         "name": "Dariia Spytska", 
         "inf": "architect at Wilmotte & Associés Architectes",
         "location": "France, Paris"
       },
       {
-        "img": "Mysak.jpg", 
+        "img": "/_nuxt/public/images/jury/Mysak.jpg", 
         "name": "Nataliia Mysak", 
         "inf": "architect and researcher, PhD in History and Theory of Architecture, Spatial Practices Lab", 
         "location": "Ukraine, Lviv"
       },
       {
-        "img": "Oksana-Savchuk-by-Fotografer-Roza-Schous.jpg", 
+        "img": "/_nuxt/public/images/jury/Oksana-Savchuk-by-Fotografer-Roza-Schous.jpg", 
         "name": "Oksana Savchuk", 
         "inf": "architect, researcher, coordinator of Ukrainian House & co-founder of VATAHA Foundation",
         "location": "Netherlands, Rotterdam"
       },
       {
-        "img": "Prokipchuk.jpg", 
+        "img": "/_nuxt/public/images/jury/Prokipchuk.jpg", 
         "name": "Artur Prokipchuk", 
         "inf": "deputy director of the Department of Urban Planning and Architecture of Ivano-Frankivsk City Council",
         "location": "Ukraine, Ivano-Frankivsk"
       },
       {
-        "img": "Bogdan Hoj_cb.jpg", 
+        "img": "/_nuxt/public/images/jury/Bogdan Hoj_cb.jpg", 
         "name": "Bohdan Hoy", 
         "inf": "PhD in Architecture, associate professor at Lviv Polytechnic National University, architect at “A7 Architects”",
         "location": "Ukraine, Lviv"
       },
       {
-        "img": "Gajdar.jpg", 
+        "img": "/_nuxt/public/images/jury/Gajdar.jpg", 
         "name": "Volodymyr Gajdar", 
         "inf": "Head at the Munitipal Enterprise Space of Innovative Creativity PALACE, member of ICOMOS",
         "location": "Ukraine, Ivano-Frankivsk"
       },
       {
-        "img": "lARYSA-POLISHCHUK-2.jpg", 
+        "img": "/_nuxt/public/images/jury/lARYSA-POLISHCHUK-2.jpg", 
         "name": "Larysa Polishchuk", 
         "inf": "PhD in Architecture; head of the research department at the Munitipal Enterprise Space of Innovative Creativity PALACE",
         "location": "Ukraine, Ivano-Frankivsk"
       },
       {
-        "img": "Duplantier.jpeg", 
+        "img": "/_nuxt/public/images/jury/Duplantier.jpeg", 
         "name": "Martin Duplantier", 
         "inf": "CEO - Architect and Urban designer at Martin Duplantier Architectes, president of the AMO FOUNDATION",
         "location": "France, Paris"

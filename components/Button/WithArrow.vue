@@ -2,18 +2,6 @@
     <div class="btn-vue"> <slot /></div>
 </template>
 
-
-
-<script>
-
-
-definePageMeta({
-  name: "ButtonWithArrow"
-  
-})
-
-</script>
-
 <style lang='scss' scoped>
 .btn-vue {
   position: relative;
@@ -34,7 +22,7 @@ definePageMeta({
     top: calc(50% - 11px);
     width: 26px;
     height: 22px;
-    background-image: url("@/assets/images/white-arrow.svg");
+    background-image: url("@/public/images/white-arrow.svg");
     background-size: contain;
     background-repeat: no-repeat;
     transition: all .3s ease-in-out;
