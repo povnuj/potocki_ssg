@@ -317,14 +317,14 @@
     "jury":{
       "title":"ЖЮРІ",
       "scheme": {
-        "img": "/_nuxt/public/images/jury/map/vs_EN.webp",
+        "img": "vs_EN.webp",
         "title":[
           "282 учасники з 54 країн зареєструвалися на конкурс.",
           "44 проекти з 14 країн було подано"
         ]
       },
       "map":{ 
-        "img": "/_nuxt/public/images/jury/map/map_uk.jpg",
+        "img": "map_uk.jpg",
         "title":"Географія зареєстрованих команд та поданих проєктів"
       },
       "members": [

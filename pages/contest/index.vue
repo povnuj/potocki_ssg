@@ -346,12 +346,12 @@
         <div class="contest-jury__map-container">
           <div class="contest-jury__map">
             <div class="contest-jury__title font-roboto-18">{{map.title}}</div>
-            <img :src="map.img"  alt="map">
+            <img :src="'/images/jury/map/'+map.img"  alt="map">
           </div>
           <div class="contest-jury__scheme">
             <div class="contest-jury__scheme-title font-roboto-18">{{scheme.title[0]}}</div>
             <div class="contest-jury__scheme-title font-roboto-18">{{scheme.title[1]}}</div>
-            <img :src="scheme.img"  alt="scheme">
+            <img :src="'/images/jury/map/'+scheme.img"  alt="scheme">
           </div>
         </div>
       </section>
